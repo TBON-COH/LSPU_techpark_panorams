@@ -1,0 +1,27 @@
+{
+  "name": "lspu_nav_techpark",
+  "private": true,
+  "version": "0.3.23",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "dev:api": "node server.js",
+    "dev:all": "concurrently \"npm run dev\" \"npm run dev:api\"",
+    "start": "node server.js",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "photo-sphere-viewer": "^4.8.1",
+    "three": "^0.180.0",
+    "vue": "^3.5.22",
+    "vue-router": "^4.6.3"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^6.0.1",
+    "concurrently": "^8.2.2",
+    "vite": "^7.1.7"
+  }
+}

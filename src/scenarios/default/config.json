@@ -1,0 +1,3465 @@
+{
+  "scenes": [
+    {
+      "id": "scene_1764321358785",
+      "name": "Западная лестница",
+      "panorama": "/src/scenarios/default/p_res/koridor/PIC_20251125_142918_20251127012201.jpg",
+      "markers": [
+        {
+          "tooltip": "",
+          "target": "scene_1764321521573",
+          "type": "circle",
+          "circle": 25,
+          "svgStyle": {
+            "fill": "rgba(0, 243, 71, 0.3)",
+            "stroke": "rgba(0, 243, 71, 1)",
+            "strokeWidth": "3px"
+          },
+          "id": "marker_1765229686670",
+          "longitude": 3.1456732841985886,
+          "latitude": 0.20741380400562726
+        }
+      ],
+      "visible": true
+    },
+    {
+      "id": "scene_1764321521573",
+      "name": "Лестница 2",
+      "panorama": "/src/scenarios/default/p_res/koridor/PIC_20251125_142830_20251127012201.jpg",
+      "markers": [
+        {
+          "tooltip": "",
+          "target": "scene_1764321358785",
+          "type": "circle",
+          "circle": 25,
+          "svgStyle": {
+            "fill": "rgba(0, 243, 71, 0.3)",
+            "stroke": "rgba(0, 243, 71, 1)",
+            "strokeWidth": "3px"
+          },
+          "id": "marker_1765229829275",
+          "longitude": 0.030290590715443603,
+          "latitude": -0.5405741379502889
+        },
+        {
+          "tooltip": "",
+          "target": "scene_1764321570975",
+          "type": "circle",
+          "circle": 50,
+          "svgStyle": {
+            "fill": "rgba(0, 243, 71, 0.3)",
+            "stroke": "rgba(0, 243, 71, 1)",
+            "strokeWidth": "3px"
+          },
+          "id": "marker_1765229929654",
+          "longitude": 3.136836449175457,
+          "latitude": -0.07610976339809294
+        }
+      ],
+      "visible": false
+    },
+    {
+      "id": "scene_1764321570975",
+      "name": "Коридор 1",
+      "panorama": "/src/scenarios/default/p_res/koridor/PIC_20251125_142652_20260121204259.jpg",
+      "markers": [
+        {
+          "tooltip": "",
+          "target": "scene_1764321521573",
+          "type": "circle",
+          "circle": 50,
+          "svgStyle": {
+            "fill": "rgba(0, 243, 71, 0.3)",
+            "stroke": "rgba(0, 243, 71, 1)",
+            "strokeWidth": "3px"
+          },
+          "id": "marker_1765229956970",
+          "longitude": 6.219823526306143,
+          "latitude": -0.11004542509119686
+        },
+        {
+          "tooltip": "",
+          "target": "scene_1764321639027",
+          "type": "circle",
+          "circle": 25,
+          "svgStyle": {
+            "fill": "rgba(0, 243, 71, 0.3)",
+            "stroke": "rgba(0, 243, 71, 1)",
+            "strokeWidth": "3px"
+          },
+          "id": "marker_1765229983185",
+          "longitude": 4.669898060373738,
+          "latitude": -0.026761134839576428
+        }
+      ],
+      "visible": false
+    },
+    {
+      "id": "scene_1764321639027",
+      "name": "Коридор 2",
+      "panorama": "/src/scenarios/default/p_res/koridor/PIC_20251125_142557_20260121204259.jpg",
+      "markers": [
+        {
+          "tooltip": "",
+          "target": "scene_1764321570975",
+          "type": "circle",
+          "circle": 25,
+          "svgStyle": {
+            "fill": "rgba(0, 243, 71, 0.3)",
+            "stroke": "rgba(0, 243, 71, 1)",
+            "strokeWidth": "3px"
+          },
+          "id": "marker_1765230055239",
+          "longitude": 1.5517332434176738,
+          "latitude": -0.02676113483957554
+        },
+        {
+          "id": "marker_1765230470605",
+          "tooltip": "Кабинет по изучению фзиологии человеческого тела",
+          "longitude": 3.1479905898612333,
+          "latitude": 0.01883867697321806,
+          "target": "scene_1765217114697",
+          "type": "circle",
+          "circle": 50,
+          "svgStyle": {
+            "fill": "rgba(255, 128, 64, 0.3)",
+            "stroke": "rgba(255, 128, 64, 1)",
+            "strokeWidth": "3px"
+          }
+        },
+        {
+          "id": "marker_1765230588758",
+          "longitude": 5.737692823978465,
+          "latitude": -0.07253946020543056,
+          "target": "scene_1765216992432",
+          "tooltip": "Лаборатория химического анализа и синтеза",
+          "circle": 30,
+          "svgStyle": {
+            "fill": "rgba(0, 128, 255, 0.3)",
+            "stroke": "rgba(0, 128, 255, 1)",
+            "strokeWidth": "3px"
+          },
+          "type": "circle"
+        },
+        {
+          "target": "scene_1764321681400",
+          "tooltip": "",
+          "circle": 25,
+          "svgStyle": {
+            "fill": "rgba(0, 243, 71, 0.3)",
+            "stroke": "rgba(0, 243, 71, 1)",
+            "strokeWidth": "3px"
+          },
+          "type": "circle",
+          "id": "marker_1765230689648",
+          "longitude": 0.014004451834626307,
+          "latitude": -0.012577792548235767
+        }
+      ],
+      "visible": false
+    },
+    {
+      "id": "scene_1764321681400",
+      "name": "Коридор 3",
+      "panorama": "/src/scenarios/default/p_res/koridor/PIC_20251125_142504_20260121204259.jpg",
+      "markers": [
+        {
+          "target": "scene_1764321639027",
+          "tooltip": "",
+          "circle": 25,
+          "svgStyle": {
+            "fill": "rgba(0, 243, 71, 0.3)",
+            "stroke": "rgba(0, 243, 71, 1)",
+            "strokeWidth": "3px"
+          },
+          "type": "circle",
+          "id": "marker_1765268973367",
+          "longitude": 3.112198468392088,
+          "latitude": 0.0031627331850767604
+        },
+        {
+          "target": "scene_1764321806909",
+          "tooltip": "",
+          "circle": 25,
+          "svgStyle": {
+            "fill": "rgba(0, 243, 71, 0.3)",
+            "stroke": "rgba(0, 243, 71, 1)",
+            "strokeWidth": "3px"
+          },
+          "type": "circle",
+          "id": "marker_1765268990591",
+          "longitude": 6.263722908169792,
+          "latitude": -0.009125112917620193
+        },
+        {
+          "id": "marker_1765279061577",
+          "longitude": 4.749725920434857,
+          "latitude": -0.07542256970161976,
+          "target": "scene_1765216862784",
+          "tooltip": "Лаборатория химического анализа и синтеза",
+          "circle": 40,
+          "svgStyle": {
+            "fill": "rgba(0, 128, 255, 0.3)",
+            "stroke": "rgba(0, 128, 255, 1)",
+            "strokeWidth": "3px"
+          },
+          "type": "circle"
+        }
+      ],
+      "visible": false
+    },
+    {
+      "id": "scene_1764321806909",
+      "name": "Коридор 4",
+      "panorama": "/src/scenarios/default/p_res/koridor/PIC_20251125_142412_20260121204259.jpg",
+      "markers": [
+        {
+          "target": "scene_1764321865587",
+          "tooltip": "",
+          "circle": 25,
+          "svgStyle": {
+            "fill": "rgba(0, 243, 71, 0.3)",
+            "stroke": "rgba(0, 243, 71, 1)",
+            "strokeWidth": "3px"
+          },
+          "type": "circle",
+          "id": "marker_1765269009692",
+          "longitude": 6.245351541536217,
+          "latitude": -0.009125112917620193
+        },
+        {
+          "id": "marker_1765269428264",
+          "longitude": 3.091591750424603,
+          "latitude": 0.006795419855138096,
+          "target": "scene_1764321681400",
+          "circle": 25,
+          "svgStyle": {
+            "fill": "rgba(0, 243, 71, 0.3)",
+            "stroke": "rgba(0, 243, 71, 1)",
+            "strokeWidth": "3px"
+          },
+          "tooltip": "",
+          "type": "circle"
+        },
+        {
+          "id": "marker_1765278396997",
+          "longitude": 4.859489372063128,
+          "latitude": 0.034738881002508215,
+          "target": "scene_1765202636312",
+          "tooltip": "В кабинет аналитической химий",
+          "circle": 50,
+          "svgStyle": {
+            "fill": "rgba(255, 128, 64, 0.3)",
+            "stroke": "rgba(255, 128, 64, 1)",
+            "strokeWidth": "3px"
+          },
+          "type": "circle"
+        },
+        {
+          "id": "marker_1765279634367",
+          "longitude": 1.299897190126819,
+          "latitude": -0.04306908578642643,
+          "target": "scene_1765279155844",
+          "circle": 50,
+          "svgStyle": {
+            "fill": "rgba(0, 128, 255, 0.3)",
+            "stroke": "rgba(0, 128, 255, 1)",
+            "strokeWidth": "3px"
+          },
+          "tooltip": "Кабинет физической и коллойдной химий",
+          "type": "circle"
+        }
+      ],
+      "visible": false
+    },
+    {
+      "id": "scene_1764321865587",
+      "name": "Коридор 5",
+      "panorama": "/src/scenarios/default/p_res/koridor/PIC_20251125_142331_20260121204259.jpg",
+      "markers": [
+        {
+          "tooltip": "",
+          "target": "scene_1764321806909",
+          "type": "circle",
+          "circle": 25,
+          "svgStyle": {
+            "fill": "rgba(0, 243, 71, 0.3)",
+            "stroke": "rgba(0, 243, 71, 1)",
+            "strokeWidth": "3px"
+          },
+          "id": "marker_1765269453224",
+          "longitude": 3.1313023441806584,
+          "latitude": 0.003092180774363129
+        },
+        {
+          "tooltip": "",
+          "target": "scene_1764321873149",
+          "type": "circle",
+          "circle": 25,
+          "svgStyle": {
+            "fill": "rgba(0, 243, 71, 0.3)",
+            "stroke": "rgba(0, 243, 71, 1)",
+            "strokeWidth": "3px"
+          },
+          "id": "marker_1765269477629",
+          "longitude": 6.275865688686784,
+          "latitude": -0.001840687386916784
+        }
+      ],
+      "visible": false
+    },
+    {
+      "id": "scene_1764321873149",
+      "name": "Коридор 6",
+      "panorama": "/src/scenarios/default/p_res/koridor/PIC_20251125_142238_20260121204259.jpg",
+      "markers": [
+        {
+          "tooltip": "",
+          "target": "scene_1764321879456",
+          "type": "circle",
+          "circle": 25,
+          "svgStyle": {
+            "fill": "rgba(0, 243, 71, 0.3)",
+            "stroke": "rgba(0, 243, 71, 1)",
+            "strokeWidth": "3px"
+          },
+          "id": "marker_1765269495245",
+          "longitude": 6.262720714549919,
+          "latitude": -0.001840687386916784
+        },
+        {
+          "tooltip": "",
+          "target": "scene_1764321865587",
+          "type": "circle",
+          "circle": 25,
+          "svgStyle": {
+            "fill": "rgba(0, 243, 71, 0.3)",
+            "stroke": "rgba(0, 243, 71, 1)",
+            "strokeWidth": "3px"
+          },
+          "id": "marker_1765269509689",
+          "longitude": 3.1106186252934624,
+          "latitude": 0.019082341884561593
+        }
+      ],
+      "visible": false
+    },
+    {
+      "id": "scene_1764321879456",
+      "name": "Коридор 7",
+      "panorama": "/src/scenarios/default/p_res/koridor/PIC_20251125_142148_20260121204259.jpg",
+      "markers": [
+        {
+          "tooltip": "",
+          "target": "scene_1764321873149",
+          "type": "circle",
+          "circle": 25,
+          "svgStyle": {
+            "fill": "rgba(0, 243, 71, 0.3)",
+            "stroke": "rgba(0, 243, 71, 1)",
+            "strokeWidth": "3px"
+          },
+          "id": "marker_1765269527664",
+          "longitude": 3.1909490227965236,
+          "latitude": 0.010548296616903041
+        },
+        {
+          "tooltip": "",
+          "target": "scene_1764321888773",
+          "type": "circle",
+          "circle": 25,
+          "svgStyle": {
+            "fill": "rgba(0, 243, 71, 0.3)",
+            "stroke": "rgba(0, 243, 71, 1)",
+            "strokeWidth": "3px"
+          },
+          "id": "marker_1765269545386",
+          "longitude": 0.0508730870094663,
+          "latitude": -0.006519793918414063
+        },
+        {
+          "id": "marker_1765273847034",
+          "longitude": 4.950352024041026,
+          "latitude": -0.014607431652596148,
+          "target": "scene_1765216684881",
+          "circle": 40,
+          "svgStyle": {
+            "fill": "rgba(0, 128, 255, 0.3)",
+            "stroke": "rgba(0, 128, 255, 1)",
+            "strokeWidth": "3px"
+          },
+          "tooltip": "Общая и неорганическая химия",
+          "type": "circle"
+        },
+        {
+          "id": "marker_1765278022331",
+          "longitude": 1.6420732111770369,
+          "latitude": -0.0192747972063243,
+          "target": "scene_1765220017013",
+          "tooltip": "В кабинет органической химий",
+          "circle": 40,
+          "svgStyle": {
+            "fill": "rgba(255, 128, 64, 0.3)",
+            "stroke": "rgba(255, 128, 64, 1)",
+            "strokeWidth": "3px"
+          },
+          "type": "circle"
+        }
+      ],
+      "visible": false
+    },
+    {
+      "id": "scene_1764321888773",
+      "name": "Коридор 8",
+      "panorama": "/src/scenarios/default/p_res/koridor/PIC_20251125_142037_20260121204259.jpg",
+      "markers": [
+        {
+          "tooltip": "",
+          "target": "scene_1764321896658",
+          "type": "circle",
+          "circle": 25,
+          "svgStyle": {
+            "fill": "rgba(0, 243, 71, 0.3)",
+            "stroke": "rgba(0, 243, 71, 1)",
+            "strokeWidth": "3px"
+          },
+          "id": "marker_1765269564233",
+          "longitude": 6.280017944959719,
+          "latitude": -0.003106175811350642
+        },
+        {
+          "tooltip": "",
+          "target": "scene_1764321879456",
+          "type": "circle",
+          "circle": 25,
+          "svgStyle": {
+            "fill": "rgba(0, 243, 71, 0.3)",
+            "stroke": "rgba(0, 243, 71, 1)",
+            "strokeWidth": "3px"
+          },
+          "id": "marker_1765269577493",
+          "longitude": 3.130276186017671,
+          "latitude": 0.004466545348219775
+        }
+      ],
+      "visible": false
+    },
+    {
+      "id": "scene_1764321896658",
+      "name": "Коридор 9",
+      "panorama": "/src/scenarios/default/p_res/koridor/PIC_20251125_141946_20260121204259.jpg",
+      "markers": [
+        {
+          "tooltip": "",
+          "target": "scene_1764321888773",
+          "type": "circle",
+          "circle": 25,
+          "svgStyle": {
+            "fill": "rgba(0, 243, 71, 0.3)",
+            "stroke": "rgba(0, 243, 71, 1)",
+            "strokeWidth": "3px"
+          },
+          "id": "marker_1765269595164",
+          "longitude": 3.1784172304758216,
+          "latitude": 0.022216543049119686
+        },
+        {
+          "tooltip": "",
+          "target": "scene_1764321903587",
+          "type": "circle",
+          "circle": 25,
+          "svgStyle": {
+            "fill": "rgba(0, 243, 71, 0.3)",
+            "stroke": "rgba(0, 243, 71, 1)",
+            "strokeWidth": "3px"
+          },
+          "id": "marker_1765269613711",
+          "longitude": 0.03802555415172021,
+          "latitude": -0.013283452352677472
+        }
+      ],
+      "visible": false
+    },
+    {
+      "id": "scene_1764321903587",
+      "name": "Коридор 10",
+      "panorama": "/src/scenarios/default/p_res/koridor/PIC_20251125_141847_20260121204259.jpg",
+      "markers": [
+        {
+          "tooltip": "",
+          "target": "scene_1764322147567",
+          "type": "circle",
+          "circle": 25,
+          "svgStyle": {
+            "fill": "rgba(0, 243, 71, 0.3)",
+            "stroke": "rgba(0, 243, 71, 1)",
+            "strokeWidth": "3px"
+          },
+          "id": "marker_1765269633418",
+          "longitude": 6.253512517562031,
+          "latitude": -0.00973345281249749
+        },
+        {
+          "tooltip": "",
+          "target": "scene_1764321896658",
+          "type": "circle",
+          "circle": 25,
+          "svgStyle": {
+            "fill": "rgba(0, 243, 71, 0.3)",
+            "stroke": "rgba(0, 243, 71, 1)",
+            "strokeWidth": "3px"
+          },
+          "id": "marker_1765269660808",
+          "longitude": 3.1172578064463026,
+          "latitude": 0.009791544658491969
+        },
+        {
+          "id": "marker_1765273778488",
+          "longitude": 4.522294805866308,
+          "latitude": -0.021622570694434184,
+          "target": "scene_1765202111764",
+          "circle": 30,
+          "svgStyle": {
+            "fill": "rgba(255, 128, 64, 0.3)",
+            "stroke": "rgba(255, 128, 64, 1)",
+            "strokeWidth": "3px"
+          },
+          "tooltip": "В кабинет физики",
+          "type": "circle"
+        }
+      ],
+      "visible": false
+    },
+    {
+      "id": "scene_1764322147567",
+      "name": "Коридор 11",
+      "panorama": "/src/scenarios/default/p_res/koridor/PIC_20251125_141700_20260121204256.jpg",
+      "markers": [
+        {
+          "id": "marker_1765269674667",
+          "longitude": 6.255019867691547,
+          "latitude": -0.00557500687785506,
+          "target": "scene_1764322159369",
+          "circle": 25,
+          "svgStyle": {
+            "fill": "rgba(0, 243, 71, 0.3)",
+            "stroke": "rgba(0, 243, 71, 1)",
+            "strokeWidth": "3px"
+          },
+          "tooltip": "",
+          "type": "circle"
+        },
+        {
+          "tooltip": "",
+          "target": "scene_1764321903587",
+          "type": "circle",
+          "circle": 25,
+          "svgStyle": {
+            "fill": "rgba(0, 243, 71, 0.3)",
+            "stroke": "rgba(0, 243, 71, 1)",
+            "strokeWidth": "3px"
+          },
+          "id": "marker_1765269705533",
+          "longitude": 3.120308293798396,
+          "latitude": 0.005467086790305942
+        }
+      ],
+      "visible": false
+    },
+    {
+      "id": "scene_1764322159369",
+      "name": "Коридор 12",
+      "panorama": "/src/scenarios/default/p_res/koridor/PIC_20251125_141550_20260121204300.jpg",
+      "markers": [
+        {
+          "id": "marker_1765269737576",
+          "longitude": 6.29847781113371,
+          "latitude": -0.021157909761044813,
+          "target": "scene_1764322179678",
+          "circle": 25,
+          "svgStyle": {
+            "fill": "rgba(0, 243, 71, 0.3)",
+            "stroke": "rgba(0, 243, 71, 1)",
+            "strokeWidth": "3px"
+          },
+          "tooltip": "",
+          "type": "circle"
+        },
+        {
+          "tooltip": "",
+          "target": "scene_1764322147567",
+          "type": "circle",
+          "circle": 25,
+          "svgStyle": {
+            "fill": "rgba(0, 243, 71, 0.3)",
+            "stroke": "rgba(0, 243, 71, 1)",
+            "strokeWidth": "3px"
+          },
+          "id": "marker_1765269749532",
+          "longitude": 3.135051253417786,
+          "latitude": 0.005219032433567694
+        },
+        {
+          "id": "marker_1765272857482",
+          "longitude": 1.4543131996499314,
+          "latitude": -0.034927099441608433,
+          "target": "scene_1765202025677",
+          "circle": 50,
+          "svgStyle": {
+            "fill": "rgba(0, 128, 255, 0.3)",
+            "stroke": "rgba(0, 128, 255, 1)",
+            "strokeWidth": "3px"
+          },
+          "tooltip": "в 401 кабинет",
+          "type": "circle"
+        },
+        {
+          "id": "marker_1765272896345",
+          "longitude": 4.475205677837762,
+          "latitude": -0.026708746267832595,
+          "target": "scene_1765202131060",
+          "circle": 50,
+          "svgStyle": {
+            "fill": "rgba(255, 128, 64, 0.3)",
+            "stroke": "rgba(255, 128, 64, 1)",
+            "strokeWidth": "3px"
+          },
+          "tooltip": "",
+          "type": "circle"
+        }
+      ],
+      "visible": false
+    },
+    {
+      "id": "scene_1764322179678",
+      "name": "Коридор 15",
+      "panorama": "/src/scenarios/default/p_res/koridor/PIC_20251125_141227_20260121204300.jpg",
+      "markers": [
+        {
+          "id": "marker_1765269916828",
+          "longitude": 0.007587032347698607,
+          "latitude": -0.01751262089148753,
+          "target": "scene_1764322803064",
+          "circle": 25,
+          "svgStyle": {
+            "fill": "rgba(0, 243, 71, 0.3)",
+            "stroke": "rgba(0, 243, 71, 1)",
+            "strokeWidth": "3px"
+          },
+          "tooltip": "",
+          "type": "circle"
+        },
+        {
+          "target": "scene_1764322159369",
+          "circle": 25,
+          "svgStyle": {
+            "fill": "rgba(0, 243, 71, 0.3)",
+            "stroke": "rgba(0, 243, 71, 1)",
+            "strokeWidth": "3px"
+          },
+          "tooltip": "",
+          "type": "circle",
+          "id": "marker_1765269936496",
+          "longitude": 3.1639244850311807,
+          "latitude": 0.01988980501805626
+        },
+        {
+          "id": "marker_1765272619154",
+          "longitude": 4.314353247985927,
+          "latitude": 0.060206630495319935,
+          "target": "scene_1765201820904",
+          "tooltip": "В кабинет соревновательной робототехники",
+          "circle": 50,
+          "svgStyle": {
+            "fill": "rgba(0, 128, 255, 0.3)",
+            "stroke": "rgba(0, 128, 255, 1)",
+            "strokeWidth": "3px"
+          },
+          "type": "circle"
+        }
+      ],
+      "visible": false
+    },
+    {
+      "id": "scene_1764322803064",
+      "name": "Зал 2",
+      "panorama": "/src/scenarios/default/p_res/koridor/PIC_20251125_140656_20260121204300.jpg",
+      "markers": [
+        {
+          "target": "scene_1764322179678",
+          "circle": 25,
+          "svgStyle": {
+            "fill": "rgba(0, 243, 71, 0.3)",
+            "stroke": "rgba(0, 243, 71, 1)",
+            "strokeWidth": "3px"
+          },
+          "tooltip": "",
+          "type": "circle",
+          "id": "marker_1765270046358",
+          "longitude": 3.1304624829768026,
+          "latitude": 0.02930823017652795
+        },
+        {
+          "target": "scene_1764323800867",
+          "circle": 25,
+          "svgStyle": {
+            "fill": "rgba(0, 243, 71, 0.3)",
+            "stroke": "rgba(0, 243, 71, 1)",
+            "strokeWidth": "3px"
+          },
+          "tooltip": "",
+          "type": "circle",
+          "id": "marker_1765270350472",
+          "longitude": 2.3316117582641684,
+          "latitude": -0.032490657727746175
+        },
+        {
+          "id": "marker_1765270365040",
+          "longitude": 1.9570142560741786,
+          "latitude": -0.0324906577277462,
+          "target": "scene_1764323751502",
+          "circle": 25,
+          "svgStyle": {
+            "fill": "rgba(0, 243, 71, 0.3)",
+            "stroke": "rgba(0, 243, 71, 1)",
+            "strokeWidth": "3px"
+          },
+          "tooltip": "",
+          "type": "circle"
+        },
+        {
+          "id": "marker_1765270388815",
+          "longitude": 1.6666635816859507,
+          "latitude": -0.0324906577277462,
+          "target": "scene_1764323724377",
+          "circle": 25,
+          "svgStyle": {
+            "fill": "rgba(0, 243, 71, 0.3)",
+            "stroke": "rgba(0, 243, 71, 1)",
+            "strokeWidth": "3px"
+          },
+          "tooltip": "",
+          "type": "circle"
+        },
+        {
+          "target": "scene_1765197956676",
+          "circle": 25,
+          "svgStyle": {
+            "fill": "rgba(0, 243, 71, 0.3)",
+            "stroke": "rgba(0, 243, 71, 1)",
+            "strokeWidth": "3px"
+          },
+          "tooltip": "",
+          "type": "circle",
+          "id": "marker_1765270422625",
+          "longitude": 4.698558001384248,
+          "latitude": -0.0021785988395559563
+        }
+      ],
+      "visible": false
+    },
+    {
+      "id": "scene_1764323724377",
+      "name": "Зал",
+      "panorama": "/src/scenarios/default/p_res/koridor/PIC_20251125_140556_20260121204300.jpg",
+      "markers": [
+        {
+          "target": "scene_1764322803064",
+          "circle": 25,
+          "svgStyle": {
+            "fill": "rgba(0, 243, 71, 0.3)",
+            "stroke": "rgba(0, 243, 71, 1)",
+            "strokeWidth": "3px"
+          },
+          "tooltip": "",
+          "type": "circle",
+          "id": "marker_1765270082816",
+          "longitude": 4.750709510521469,
+          "latitude": -0.006191765225265655
+        },
+        {
+          "target": "scene_1764323751502",
+          "circle": 25,
+          "svgStyle": {
+            "fill": "rgba(0, 243, 71, 0.3)",
+            "stroke": "rgba(0, 243, 71, 1)",
+            "strokeWidth": "3px"
+          },
+          "tooltip": "",
+          "type": "circle",
+          "id": "marker_1765270136889",
+          "longitude": 3.9994753081779333,
+          "latitude": -0.013484730876151652
+        },
+        {
+          "id": "marker_1765270158664",
+          "longitude": 4.173986594338731,
+          "latitude": -0.0134847308761517,
+          "target": "scene_1764322179678",
+          "circle": 25,
+          "svgStyle": {
+            "fill": "rgba(0, 243, 71, 0.3)",
+            "stroke": "rgba(0, 243, 71, 1)",
+            "strokeWidth": "3px"
+          },
+          "tooltip": "",
+          "type": "circle"
+        }
+      ],
+      "visible": true
+    },
+    {
+      "id": "scene_1764323751502",
+      "name": "Зал 4",
+      "panorama": "/src/scenarios/default/p_res/koridor/PIC_20251125_140459_20260121204300.jpg",
+      "markers": [
+        {
+          "target": "scene_1764322803064",
+          "circle": 25,
+          "svgStyle": {
+            "fill": "rgba(0, 243, 71, 0.3)",
+            "stroke": "rgba(0, 243, 71, 1)",
+            "strokeWidth": "3px"
+          },
+          "tooltip": "",
+          "type": "circle",
+          "id": "marker_1765270104389",
+          "longitude": 5.038051369631062,
+          "latitude": -0.006191765225266543
+        },
+        {
+          "target": "scene_1764323724377",
+          "circle": 25,
+          "svgStyle": {
+            "fill": "rgba(0, 243, 71, 0.3)",
+            "stroke": "rgba(0, 243, 71, 1)",
+            "strokeWidth": "3px"
+          },
+          "tooltip": "",
+          "type": "circle",
+          "id": "marker_1765270218820",
+          "longitude": 0.9158229200820477,
+          "latitude": -0.06879275101295512
+        },
+        {
+          "target": "scene_1764322179678",
+          "circle": 25,
+          "svgStyle": {
+            "fill": "rgba(0, 243, 71, 0.3)",
+            "stroke": "rgba(0, 243, 71, 1)",
+            "strokeWidth": "3px"
+          },
+          "tooltip": "",
+          "type": "circle",
+          "id": "marker_1765270233225",
+          "longitude": 4.222879860933664,
+          "latitude": -0.020867757220527583
+        },
+        {
+          "target": "scene_1764323800867",
+          "circle": 25,
+          "svgStyle": {
+            "fill": "rgba(0, 243, 71, 0.3)",
+            "stroke": "rgba(0, 243, 71, 1)",
+            "strokeWidth": "3px"
+          },
+          "tooltip": "",
+          "type": "circle",
+          "id": "marker_1765270245619",
+          "longitude": 3.109618207838904,
+          "latitude": -0.10961774572502181
+        }
+      ],
+      "visible": false
+    },
+    {
+      "id": "scene_1764323800867",
+      "name": "Лестница 3",
+      "panorama": "/src/scenarios/default/p_res/koridor/PIC_20251125_140357_20260121204300.jpg",
+      "markers": [
+        {
+          "target": "scene_1764323838645",
+          "circle": 25,
+          "svgStyle": {
+            "fill": "rgba(0, 243, 71, 0.3)",
+            "stroke": "rgba(0, 243, 71, 1)",
+            "strokeWidth": "3px"
+          },
+          "tooltip": "",
+          "type": "circle",
+          "id": "marker_1765270272199",
+          "longitude": 3.1472283988218366,
+          "latitude": -0.46461769974300315
+        },
+        {
+          "target": "scene_1764323751502",
+          "circle": 25,
+          "svgStyle": {
+            "fill": "rgba(0, 243, 71, 0.3)",
+            "stroke": "rgba(0, 243, 71, 1)",
+            "strokeWidth": "3px"
+          },
+          "tooltip": "",
+          "type": "circle",
+          "id": "marker_1765270287435",
+          "longitude": 6.251043703402644,
+          "latitude": -0.0503795971103953
+        }
+      ],
+      "visible": false
+    },
+    {
+      "id": "scene_1764323838645",
+      "name": "Восточная лестница",
+      "panorama": "/src/scenarios/default/p_res/koridor/PIC_20251125_140319_20260121204300.jpg",
+      "markers": [
+        {
+          "target": "scene_1764323800867",
+          "circle": 25,
+          "svgStyle": {
+            "fill": "rgba(0, 243, 71, 0.3)",
+            "stroke": "rgba(0, 243, 71, 1)",
+            "strokeWidth": "3px"
+          },
+          "tooltip": "",
+          "type": "circle",
+          "id": "marker_1765270307115",
+          "longitude": 6.241374519279939,
+          "latitude": 0.24249536495443724
+        }
+      ],
+      "visible": true
+    },
+    {
+      "id": "scene_1765197956676",
+      "name": "Восточный поворот",
+      "panorama": "/src/scenarios/default/p_res/koridor/PIC_20251125_140735_20260121204300.jpg",
+      "markers": [
+        {
+          "target": "scene_1765197961248",
+          "circle": 25,
+          "svgStyle": {
+            "fill": "rgba(0, 243, 71, 0.3)",
+            "stroke": "rgba(0, 243, 71, 1)",
+            "strokeWidth": "3px"
+          },
+          "tooltip": "",
+          "type": "circle",
+          "id": "marker_1765270484641",
+          "longitude": 4.7361681923671775,
+          "latitude": 0.00492140024080534
+        },
+        {
+          "target": "scene_1764322803064",
+          "circle": 25,
+          "svgStyle": {
+            "fill": "rgba(0, 243, 71, 0.3)",
+            "stroke": "rgba(0, 243, 71, 1)",
+            "strokeWidth": "3px"
+          },
+          "tooltip": "",
+          "type": "circle",
+          "id": "marker_1765270504741",
+          "longitude": 1.577382278709686,
+          "latitude": 0.0034050360586226347
+        }
+      ],
+      "visible": true
+    },
+    {
+      "id": "scene_1765197961248",
+      "name": "Коридор 18",
+      "panorama": "/src/scenarios/default/p_res/koridor/PIC_20251125_140816_20260121204300.jpg",
+      "markers": [
+        {
+          "target": "scene_1765197965497",
+          "circle": 25,
+          "svgStyle": {
+            "fill": "rgba(0, 243, 71, 0.3)",
+            "stroke": "rgba(0, 243, 71, 1)",
+            "strokeWidth": "3px"
+          },
+          "tooltip": "",
+          "type": "circle",
+          "id": "marker_1765270527173",
+          "longitude": 4.701311543323057,
+          "latitude": 0.010505035138979935
+        },
+        {
+          "target": "scene_1765197956676",
+          "circle": 25,
+          "svgStyle": {
+            "fill": "rgba(0, 243, 71, 0.3)",
+            "stroke": "rgba(0, 243, 71, 1)",
+            "strokeWidth": "3px"
+          },
+          "tooltip": "",
+          "type": "circle",
+          "id": "marker_1765270545769",
+          "longitude": 1.5550869208591012,
+          "latitude": 0.00340503605861997
+        },
+        {
+          "id": "marker_1765270657396",
+          "longitude": 3.5331297180094894,
+          "latitude": 0.012551761490811497,
+          "target": "scene_1765199106925",
+          "tooltip": "В кабинет генетики",
+          "circle": 50,
+          "svgStyle": {
+            "fill": "rgba(0, 243, 71, 0.3)",
+            "stroke": "rgba(0, 243, 71, 1)",
+            "strokeWidth": "3px"
+          },
+          "type": "circle"
+        },
+        {
+          "id": "marker_1765271556310",
+          "longitude": 5.85671163577401,
+          "latitude": -0.012620822624378913,
+          "target": "scene_1765201626608",
+          "tooltip": "В лабораторию нейрообразования",
+          "circle": 40,
+          "svgStyle": {
+            "fill": "rgba(0, 128, 255, 0.3)",
+            "stroke": "rgba(0, 128, 255, 1)",
+            "strokeWidth": "3px"
+          },
+          "type": "circle"
+        }
+      ],
+      "visible": false
+    },
+    {
+      "id": "scene_1765197965497",
+      "name": "Коридор 19",
+      "panorama": "/src/scenarios/default/p_res/koridor/PIC_20251125_140910_20260121204300.jpg",
+      "markers": [
+        {
+          "target": "scene_1765197969877",
+          "circle": 25,
+          "svgStyle": {
+            "fill": "rgba(0, 243, 71, 0.3)",
+            "stroke": "rgba(0, 243, 71, 1)",
+            "strokeWidth": "3px"
+          },
+          "tooltip": "",
+          "type": "circle",
+          "id": "marker_1765270565713",
+          "longitude": 4.6616886960492065,
+          "latitude": -0.007244962561918644
+        },
+        {
+          "target": "scene_1765197961248",
+          "circle": 25,
+          "svgStyle": {
+            "fill": "rgba(0, 243, 71, 0.3)",
+            "stroke": "rgba(0, 243, 71, 1)",
+            "strokeWidth": "3px"
+          },
+          "tooltip": "",
+          "type": "circle",
+          "id": "marker_1765270585960",
+          "longitude": 1.499423838204361,
+          "latitude": 0.003405036058619082
+        },
+        {
+          "id": "marker_1765271239443",
+          "longitude": 5.598432154257437,
+          "latitude": -0.025388191307949004,
+          "target": "scene_1765199891811",
+          "tooltip": "В лабораторию нейрообразования",
+          "circle": 40,
+          "svgStyle": {
+            "fill": "rgba(255, 128, 64, 0.3)",
+            "stroke": "rgba(255, 128, 64, 1)",
+            "strokeWidth": "3px"
+          },
+          "type": "circle"
+        }
+      ],
+      "visible": false
+    },
+    {
+      "id": "scene_1765197969877",
+      "name": "Коридор 20",
+      "panorama": "/src/scenarios/default/p_res/koridor/PIC_20251125_141008_20260121204300.jpg",
+      "markers": [
+        {
+          "id": "marker_1765270599568",
+          "longitude": 1.5340252139086572,
+          "latitude": -0.009019962332010856,
+          "target": "scene_1765197965497",
+          "circle": 40,
+          "svgStyle": {
+            "fill": "rgba(0, 243, 71, 0.3)",
+            "stroke": "rgba(0, 243, 71, 1)",
+            "strokeWidth": "3px"
+          },
+          "tooltip": "",
+          "type": "circle"
+        },
+        {
+          "id": "marker_1765270627199",
+          "longitude": 3.2356024597347703,
+          "latitude": -0.012569961872190394,
+          "target": "scene_1765197974067",
+          "circle": 50,
+          "svgStyle": {
+            "fill": "rgba(0, 128, 255, 0.3)",
+            "stroke": "rgba(0, 128, 255, 1)",
+            "strokeWidth": "3px"
+          },
+          "tooltip": "В кабинет генетики",
+          "type": "circle"
+        },
+        {
+          "target": "scene_1765199891811",
+          "circle": 25,
+          "svgStyle": {
+            "fill": "rgba(0, 243, 71, 0.3)",
+            "stroke": "rgba(0, 243, 71, 1)",
+            "strokeWidth": "3px"
+          },
+          "tooltip": "В лабораторию нейрообразований",
+          "type": "circle",
+          "id": "marker_1765271161378",
+          "longitude": 0.8258858099541868,
+          "latitude": -0.021689810237146112
+        }
+      ],
+      "visible": false
+    },
+    {
+      "id": "scene_1765197974067",
+      "name": "Кабинет генетики 1",
+      "panorama": "/src/scenarios/default/p_res/kabinets/PIC_20251201_154646_20260121222602.jpg",
+      "markers": [
+        {
+          "id": "marker_1765270712679",
+          "longitude": 3.1713451684791485,
+          "latitude": -0.03004823299134385,
+          "target": "scene_1765197983522",
+          "circle": 40,
+          "svgStyle": {
+            "fill": "rgba(0, 128, 255, 0.3)",
+            "stroke": "rgba(0, 128, 255, 1)",
+            "strokeWidth": "3px"
+          },
+          "tooltip": "",
+          "type": "circle"
+        },
+        {
+          "target": "scene_1765197969877",
+          "circle": 50,
+          "svgStyle": {
+            "fill": "rgba(0, 243, 71, 0.3)",
+            "stroke": "rgba(0, 243, 71, 1)",
+            "strokeWidth": "3px"
+          },
+          "tooltip": "",
+          "type": "circle",
+          "id": "marker_1765270738249",
+          "longitude": 0.06882723329326008,
+          "latitude": -0.04602323092215421
+        },
+        {
+          "target": "scene_1765199101083",
+          "circle": 40,
+          "svgStyle": {
+            "fill": "rgba(0, 128, 255, 0.3)",
+            "stroke": "rgba(0, 128, 255, 1)",
+            "strokeWidth": "3px"
+          },
+          "tooltip": "",
+          "type": "circle",
+          "id": "marker_1765270754366",
+          "longitude": 1.5717304649711898,
+          "latitude": 0.0196517605711799
+        }
+      ],
+      "visible": false
+    },
+    {
+      "id": "scene_1765197983522",
+      "name": "Кабинет генетики",
+      "panorama": "/src/scenarios/default/p_res/kabinets/PIC_20251201_154727_20260121222549.jpg",
+      "markers": [
+        {
+          "target": "scene_1765197974067",
+          "circle": 40,
+          "svgStyle": {
+            "fill": "rgba(0, 128, 255, 0.3)",
+            "stroke": "rgba(0, 128, 255, 1)",
+            "strokeWidth": "3px"
+          },
+          "tooltip": "",
+          "type": "circle",
+          "id": "marker_1765270797941",
+          "longitude": 0.042661534681392325,
+          "latitude": -0.01897604156859911
+        },
+        {
+          "target": "scene_1765199094221",
+          "circle": 40,
+          "svgStyle": {
+            "fill": "rgba(0, 128, 255, 0.3)",
+            "stroke": "rgba(0, 128, 255, 1)",
+            "strokeWidth": "3px"
+          },
+          "tooltip": "",
+          "type": "circle",
+          "id": "marker_1765270811597",
+          "longitude": 1.6375590460331761,
+          "latitude": 0.009423954752844299
+        },
+        {
+          "target": "scene_1765199101083",
+          "circle": 40,
+          "svgStyle": {
+            "fill": "rgba(0, 128, 255, 0.3)",
+            "stroke": "rgba(0, 128, 255, 1)",
+            "strokeWidth": "3px"
+          },
+          "tooltip": "",
+          "type": "circle",
+          "id": "marker_1765270826875",
+          "longitude": 1.0102210604378867,
+          "latitude": 0.005873955212666093
+        },
+        {
+          "id": "marker_1765270838237",
+          "longitude": 0.6840319213432333,
+          "latitude": -0.031718719024222075,
+          "target": "scene_1765199084793",
+          "circle": 40,
+          "svgStyle": {
+            "fill": "rgba(0, 128, 255, 0.3)",
+            "stroke": "rgba(0, 128, 255, 1)",
+            "strokeWidth": "3px"
+          },
+          "tooltip": "",
+          "type": "circle"
+        }
+      ],
+      "visible": true
+    },
+    {
+      "id": "scene_1765199084793",
+      "name": "Кабинет генетики 3",
+      "panorama": "/src/scenarios/default/p_res/kabinets/PIC_20251201_154908_20251202115419.jpg",
+      "markers": [
+        {
+          "target": "scene_1765197974067",
+          "circle": 40,
+          "svgStyle": {
+            "fill": "rgba(0, 128, 255, 0.3)",
+            "stroke": "rgba(0, 128, 255, 1)",
+            "strokeWidth": "3px"
+          },
+          "tooltip": "",
+          "type": "circle",
+          "id": "marker_1765270887999",
+          "longitude": 4.8294539730530195,
+          "latitude": -0.00686872224296442
+        },
+        {
+          "target": "scene_1765197969877",
+          "circle": 25,
+          "svgStyle": {
+            "fill": "rgba(0, 243, 71, 0.3)",
+            "stroke": "rgba(0, 243, 71, 1)",
+            "strokeWidth": "3px"
+          },
+          "tooltip": "",
+          "type": "circle",
+          "id": "marker_1765270906990",
+          "longitude": 5.46581840448421,
+          "latitude": 0.007331275917754176
+        },
+        {
+          "id": "marker_1765270916275",
+          "longitude": 3.9945077332319423,
+          "latitude": 0.0037812763775750824,
+          "target": "scene_1765197983522",
+          "circle": 40,
+          "svgStyle": {
+            "fill": "rgba(0, 128, 255, 0.3)",
+            "stroke": "rgba(0, 128, 255, 1)",
+            "strokeWidth": "3px"
+          },
+          "tooltip": "",
+          "type": "circle"
+        },
+        {
+          "target": "scene_1765199094221",
+          "circle": 40,
+          "svgStyle": {
+            "fill": "rgba(0, 128, 255, 0.3)",
+            "stroke": "rgba(0, 128, 255, 1)",
+            "strokeWidth": "3px"
+          },
+          "tooltip": "",
+          "type": "circle",
+          "id": "marker_1765270937597",
+          "longitude": 3.1851364232792694,
+          "latitude": -0.024618719943863
+        },
+        {
+          "target": "scene_1765199101083",
+          "circle": 40,
+          "svgStyle": {
+            "fill": "rgba(0, 128, 255, 0.3)",
+            "stroke": "rgba(0, 128, 255, 1)",
+            "strokeWidth": "3px"
+          },
+          "tooltip": "",
+          "type": "circle",
+          "id": "marker_1765270954003",
+          "longitude": 1.2833364527557454,
+          "latitude": 0.02373675786642515
+        }
+      ],
+      "visible": false
+    },
+    {
+      "id": "scene_1765199094221",
+      "name": "Кабинет генетики 4",
+      "panorama": "/src/scenarios/default/p_res/kabinets/PIC_20251201_154817_20260121222601.jpg",
+      "markers": [
+        {
+          "target": "scene_1765199084793",
+          "circle": 40,
+          "svgStyle": {
+            "fill": "rgba(0, 128, 255, 0.3)",
+            "stroke": "rgba(0, 128, 255, 1)",
+            "strokeWidth": "3px"
+          },
+          "tooltip": "",
+          "type": "circle",
+          "id": "marker_1765270969981",
+          "longitude": 0.08094836238359814,
+          "latitude": -0.0037528129304842395
+        },
+        {
+          "target": "scene_1765197974067",
+          "circle": 40,
+          "svgStyle": {
+            "fill": "rgba(0, 128, 255, 0.3)",
+            "stroke": "rgba(0, 128, 255, 1)",
+            "strokeWidth": "3px"
+          },
+          "tooltip": "",
+          "type": "circle",
+          "id": "marker_1765270982839",
+          "longitude": 5.660205419397568,
+          "latitude": -0.008987754221557065
+        },
+        {
+          "target": "scene_1765197983522",
+          "circle": 40,
+          "svgStyle": {
+            "fill": "rgba(0, 128, 255, 0.3)",
+            "stroke": "rgba(0, 128, 255, 1)",
+            "strokeWidth": "3px"
+          },
+          "tooltip": "",
+          "type": "circle",
+          "id": "marker_1765270995027",
+          "longitude": 4.710924198988389,
+          "latitude": -0.026737751922455644
+        }
+      ],
+      "visible": false
+    },
+    {
+      "id": "scene_1765199101083",
+      "name": "Кабинет генетики 5",
+      "panorama": "/src/scenarios/default/p_res/kabinets/PIC_20251201_154958_20260121222601.jpg",
+      "markers": [
+        {
+          "id": "marker_1765271017231",
+          "longitude": 4.605615664236183,
+          "latitude": -0.049812748933622863,
+          "target": "scene_1765199084793",
+          "circle": 50,
+          "svgStyle": {
+            "fill": "rgba(0, 128, 255, 0.3)",
+            "stroke": "rgba(0, 128, 255, 1)",
+            "strokeWidth": "3px"
+          },
+          "tooltip": "",
+          "type": "circle"
+        },
+        {
+          "id": "marker_1765271029362",
+          "longitude": 1.5789267878004012,
+          "latitude": -0.03206055662860807,
+          "target": "scene_1765199106925",
+          "circle": 50,
+          "svgStyle": {
+            "fill": "rgba(0, 128, 255, 0.3)",
+            "stroke": "rgba(0, 128, 255, 1)",
+            "strokeWidth": "3px"
+          },
+          "tooltip": "",
+          "type": "circle"
+        }
+      ],
+      "visible": false
+    },
+    {
+      "id": "scene_1765199106925",
+      "name": "Кабинет генетики",
+      "panorama": "/src/scenarios/default/p_res/kabinets/PIC_20251201_155045_20260121222601.jpg",
+      "markers": [
+        {
+          "target": "scene_1765199101083",
+          "circle": 50,
+          "svgStyle": {
+            "fill": "rgba(0, 128, 255, 0.3)",
+            "stroke": "rgba(0, 128, 255, 1)",
+            "strokeWidth": "3px"
+          },
+          "tooltip": "",
+          "type": "circle",
+          "id": "marker_1765271044761",
+          "longitude": 4.7246132024686,
+          "latitude": 0.012314437623641261
+        },
+        {
+          "id": "marker_1765271075195",
+          "longitude": 0.33219739255706976,
+          "latitude": 0.0143620093587149,
+          "target": "scene_1765197961248",
+          "tooltip": "В коридор",
+          "circle": 50,
+          "svgStyle": {
+            "fill": "rgba(0, 243, 71, 0.3)",
+            "stroke": "rgba(0, 243, 71, 1)",
+            "strokeWidth": "3px"
+          },
+          "type": "circle"
+        }
+      ],
+      "visible": false
+    },
+    {
+      "id": "scene_1765199891811",
+      "name": "Лаборатория нейрообразования",
+      "panorama": "/src/scenarios/default/p_res/kabinets/PIC_20251201_160859_20260121222602.jpg",
+      "markers": [
+        {
+          "target": "scene_1765197965497",
+          "tooltip": "В коридор",
+          "circle": 30,
+          "svgStyle": {
+            "fill": "rgba(0, 243, 71, 0.3)",
+            "stroke": "rgba(0, 243, 71, 1)",
+            "strokeWidth": "3px"
+          },
+          "type": "circle",
+          "id": "marker_1765271330676",
+          "longitude": 3.036793956596228,
+          "latitude": 0.003839766057339933
+        },
+        {
+          "target": "scene_1765199900704",
+          "tooltip": "",
+          "circle": 30,
+          "svgStyle": {
+            "fill": "rgba(255, 128, 64, 0.3)",
+            "stroke": "rgba(255, 128, 64, 1)",
+            "strokeWidth": "3px"
+          },
+          "type": "circle",
+          "id": "marker_1765271350157",
+          "longitude": 0.04538825936296425,
+          "latitude": -0.0393834071030712
+        },
+        {
+          "target": "scene_1765199904732",
+          "tooltip": "",
+          "circle": 30,
+          "svgStyle": {
+            "fill": "rgba(255, 128, 64, 0.3)",
+            "stroke": "rgba(255, 128, 64, 1)",
+            "strokeWidth": "3px"
+          },
+          "type": "circle",
+          "id": "marker_1765271363271",
+          "longitude": 4.915645337404623,
+          "latitude": 0.02163988056516919
+        }
+      ],
+      "visible": true
+    },
+    {
+      "id": "scene_1765199900704",
+      "name": "Лаборатория нейрообразования 2",
+      "panorama": "/src/scenarios/default/p_res/kabinets/PIC_20251201_160956_20260121222602.jpg",
+      "markers": [
+        {
+          "target": "scene_1765199891811",
+          "tooltip": "",
+          "circle": 30,
+          "svgStyle": {
+            "fill": "rgba(255, 128, 64, 0.3)",
+            "stroke": "rgba(255, 128, 64, 1)",
+            "strokeWidth": "3px"
+          },
+          "type": "circle",
+          "id": "marker_1765271379247",
+          "longitude": 3.2661063060867175,
+          "latitude": -0.006373151934931265
+        }
+      ],
+      "visible": false
+    },
+    {
+      "id": "scene_1765199904732",
+      "name": "Лаборатория нейрообразования 3",
+      "panorama": "/src/scenarios/default/p_res/kabinets/PIC_20251201_161325_20260121222602.jpg",
+      "markers": [
+        {
+          "target": "scene_1765199891811",
+          "tooltip": "",
+          "circle": 40,
+          "svgStyle": {
+            "fill": "rgba(255, 128, 64, 0.3)",
+            "stroke": "rgba(255, 128, 64, 1",
+            "strokeWidth": "3px"
+          },
+          "type": "circle",
+          "id": "marker_1765271404275",
+          "longitude": 1.913665674024944,
+          "latitude": -0.01746829514733861
+        },
+        {
+          "target": "scene_1765199904732",
+          "tooltip": "",
+          "circle": 40,
+          "svgStyle": {
+            "fill": "rgba(255, 128, 64, 0.3)",
+            "stroke": "rgba(255, 128, 64, 1)",
+            "strokeWidth": "3px"
+          },
+          "type": "circle",
+          "id": "marker_1765271429570",
+          "longitude": 0.15332150270600964,
+          "latitude": -0.02671424782434606
+        }
+      ],
+      "visible": false
+    },
+    {
+      "id": "scene_1765199909610",
+      "name": "Лаборатория нейрообразования 4",
+      "panorama": "/src/scenarios/default/p_res/kabinets/PIC_20251201_161416_20260121222602.jpg",
+      "markers": [
+        {
+          "target": "scene_1765199904732",
+          "tooltip": "",
+          "circle": 40,
+          "svgStyle": {
+            "fill": "rgba(255, 128, 64, 0.3)",
+            "stroke": "rgba(255, 128, 64, 1)",
+            "strokeWidth": "3px"
+          },
+          "type": "circle",
+          "id": "marker_1765271450353",
+          "longitude": 3.223527482533402,
+          "latitude": -0.03349387269125659
+        },
+        {
+          "target": "scene_1765199891811",
+          "tooltip": "",
+          "circle": 30,
+          "svgStyle": {
+            "fill": "rgba(255, 128, 64, 0.3)",
+            "stroke": "rgba(255, 128, 64, 1)",
+            "strokeWidth": "3px"
+          },
+          "type": "circle",
+          "id": "marker_1765271464722",
+          "longitude": 2.5131859578954527,
+          "latitude": -0.027946301085052916
+        }
+      ],
+      "visible": false
+    },
+    {
+      "id": "scene_1765201626608",
+      "name": "Лаборатория нейрообразования",
+      "panorama": "/src/scenarios/default/p_res/kabinets/PIC_20251201_160557_20260121222601.jpg",
+      "markers": [
+        {
+          "target": "scene_1765197961248",
+          "tooltip": "В коридор",
+          "circle": 30,
+          "svgStyle": {
+            "fill": "rgba(0, 243, 71, 0.3)",
+            "stroke": "rgba(0, 243, 71, 1)",
+            "strokeWidth": "3px"
+          },
+          "type": "circle",
+          "id": "marker_1765271640520",
+          "longitude": 3.1498219464076125,
+          "latitude": -0.0015256794119733463
+        },
+        {
+          "target": "scene_1765201630908",
+          "tooltip": "",
+          "circle": 30,
+          "svgStyle": {
+            "fill": "rgba(0, 128, 255, 0.3)",
+            "stroke": "rgba(0, 128, 255, 1)",
+            "strokeWidth": "3px"
+          },
+          "type": "circle",
+          "id": "marker_1765271656745",
+          "longitude": 4.865188160926328,
+          "latitude": -0.008922441553578242
+        }
+      ],
+      "visible": false
+    },
+    {
+      "id": "scene_1765201630908",
+      "name": "Лаборатория нейрообразования 6",
+      "panorama": "/src/scenarios/default/p_res/kabinets/PIC_20251201_160639_20260121222601.jpg",
+      "markers": [
+        {
+          "id": "marker_1765271676022",
+          "longitude": 1.5904414835288223,
+          "latitude": -0.001571824877618,
+          "target": "scene_1765201626608",
+          "circle": 30,
+          "svgStyle": {
+            "fill": "rgba(0, 128, 255, 0.3)",
+            "stroke": "rgba(0, 128, 255, 1)",
+            "strokeWidth": "3px"
+          },
+          "tooltip": "",
+          "type": "circle"
+        },
+        {
+          "target": "scene_1765197961248",
+          "tooltip": "В коридор",
+          "circle": 30,
+          "svgStyle": {
+            "fill": "rgba(0, 243, 71, 0.3)",
+            "stroke": "rgba(0, 243, 71, 1)",
+            "strokeWidth": "3px"
+          },
+          "type": "circle",
+          "id": "marker_1765271685115",
+          "longitude": 2.2032673490843706,
+          "latitude": -0.0015718248776179777
+        }
+      ],
+      "visible": false
+    },
+    {
+      "id": "scene_1765201820904",
+      "name": "Соревновательная робототехника",
+      "panorama": "/src/scenarios/default/p_res/kabinets/PIC_20251201_161742_20260121222602.jpg",
+      "markers": [
+        {
+          "id": "marker_1765272683779",
+          "longitude": 1.5726973628913532,
+          "latitude": -0.0518832358484298,
+          "target": "scene_1764322179678",
+          "tooltip": "В коридор",
+          "circle": 50,
+          "svgStyle": {
+            "fill": "rgba(0, 243, 71, 0.3)",
+            "stroke": "rgba(0, 243, 71, 1)",
+            "strokeWidth": "3px"
+          },
+          "type": "circle"
+        },
+        {
+          "target": "scene_1765201836177",
+          "tooltip": "",
+          "circle": 30,
+          "svgStyle": {
+            "fill": "rgba(0, 128, 255, 0.3)",
+            "stroke": "rgba(0, 128, 255, 1)",
+            "strokeWidth": "3px"
+          },
+          "type": "circle",
+          "id": "marker_1765272737767",
+          "longitude": 4.987403404940043,
+          "latitude": -0.03423205756870873
+        }
+      ],
+      "visible": true
+    },
+    {
+      "id": "scene_1765201836177",
+      "name": "Соревновательная робототехника 2",
+      "panorama": "/src/scenarios/default/p_res/kabinets/PIC_20251201_161856_20260121222602.jpg",
+      "markers": [
+        {
+          "target": "scene_1765201820904",
+          "tooltip": "",
+          "circle": 30,
+          "svgStyle": {
+            "fill": "rgba(0, 128, 255, 0.3)",
+            "stroke": "rgba(0, 128, 255, 1)",
+            "strokeWidth": "3px"
+          },
+          "type": "circle",
+          "id": "marker_1765272761600",
+          "longitude": 1.818939214845297,
+          "latitude": -0.027262680288774543
+        }
+      ],
+      "visible": false
+    },
+    {
+      "id": "scene_1765201988015",
+      "name": "401 1",
+      "panorama": "/src/scenarios/Технопарк_ЛГПУ/p_res/kabinets2/PIC_20251202_155201_20251204135242.jpg",
+      "markers": [],
+      "visible": false
+    },
+    {
+      "id": "scene_1765202002458",
+      "name": "401 2",
+      "panorama": "/src/scenarios/default/p_res/kabinets/PIC_20251202_155400_20260225012340.jpg",
+      "markers": [
+        {
+          "id": "marker_1765273115565",
+          "longitude": 6.232963170245434,
+          "latitude": -0.049940132597022124,
+          "target": "scene_1765202020346",
+          "circle": 30,
+          "svgStyle": {
+            "fill": "rgba(0, 128, 255, 0.3)",
+            "stroke": "rgba(0, 128, 255, 1)",
+            "strokeWidth": "3px"
+          },
+          "tooltip": "",
+          "type": "circle"
+        }
+      ],
+      "visible": false
+    },
+    {
+      "id": "scene_1765202014812",
+      "name": "401 3",
+      "panorama": "/src/scenarios/Технопарк_ЛГПУ/p_res/kabinets2/PIC_20251202_155540_20251204135242.jpg",
+      "markers": [],
+      "visible": false
+    },
+    {
+      "id": "scene_1765202020346",
+      "name": "401 4",
+      "panorama": "/src/scenarios/default/p_res/kabinets/PIC_20251202_155626_20260225012340.jpg",
+      "markers": [
+        {
+          "target": "scene_1765202031138",
+          "circle": 30,
+          "svgStyle": {
+            "fill": "rgba(0, 128, 255, 0.3)",
+            "stroke": "rgba(0, 128, 255, 1)",
+            "strokeWidth": "3px"
+          },
+          "tooltip": "",
+          "type": "circle",
+          "id": "marker_1765273009061",
+          "longitude": 0.27519558732777005,
+          "latitude": -0.03239961829400162
+        },
+        {
+          "target": "scene_1765202025677",
+          "circle": 30,
+          "svgStyle": {
+            "fill": "rgba(0, 128, 255, 0.3)",
+            "stroke": "rgba(0, 128, 255, 1)",
+            "strokeWidth": "3px"
+          },
+          "tooltip": "",
+          "type": "circle",
+          "id": "marker_1765273027561",
+          "longitude": 5.724863163534998,
+          "latitude": -0.03513906935192823
+        },
+        {
+          "target": "scene_1765202002458",
+          "circle": 30,
+          "svgStyle": {
+            "fill": "rgba(255, 128, 64, 0.3)",
+            "stroke": "rgba(255, 128, 64, 1)",
+            "strokeWidth": "3px"
+          },
+          "tooltip": "",
+          "type": "circle",
+          "id": "marker_1765273131202",
+          "longitude": 3.100895256027882,
+          "latitude": -0.016667713118030836
+        }
+      ],
+      "visible": false
+    },
+    {
+      "id": "scene_1765202025677",
+      "name": "Кабинет робототехники и виртуальной реальности",
+      "panorama": "/src/scenarios/default/p_res/kabinets/PIC_20251202_155720_20260225012340.jpg",
+      "markers": [
+        {
+          "id": "marker_1765272954645",
+          "longitude": 1.4505897242064048,
+          "latitude": -0.01,
+          "target": "scene_1765202031138",
+          "circle": 35,
+          "svgStyle": {
+            "fill": "rgba(0, 128, 255, 0.3)",
+            "stroke": "rgba(0, 128, 255, 1)",
+            "strokeWidth": "3px"
+          },
+          "tooltip": "",
+          "type": "circle"
+        },
+        {
+          "id": "marker_1765273036276",
+          "longitude": 2.7017574242869693,
+          "latitude": -0.008781133951191844,
+          "target": "scene_1765202020346",
+          "circle": 30,
+          "svgStyle": {
+            "fill": "rgba(0, 128, 255, 0.3)",
+            "stroke": "rgba(0, 128, 255, 1)",
+            "strokeWidth": "3px"
+          },
+          "tooltip": "",
+          "type": "circle"
+        },
+        {
+          "target": "scene_1764322159369",
+          "circle": 50,
+          "svgStyle": {
+            "fill": "rgba(0, 243, 71, 0.3)",
+            "stroke": "rgba(0, 243, 71, 1)",
+            "strokeWidth": "3px"
+          },
+          "tooltip": "В коридор",
+          "type": "circle",
+          "id": "marker_1765281526934",
+          "longitude": 4.574478730532036,
+          "latitude": -0.052279401047021334
+        }
+      ],
+      "visible": true
+    },
+    {
+      "id": "scene_1765202031138",
+      "name": "401 6",
+      "panorama": "/src/scenarios/default/p_res/kabinets/PIC_20251202_155818_20260225012340.jpg",
+      "markers": [
+        {
+          "target": "scene_1765202025677",
+          "circle": 35,
+          "svgStyle": {
+            "fill": "rgba(0, 128, 255, 0.3)",
+            "stroke": "rgba(0, 128, 255, 1)",
+            "strokeWidth": "3px"
+          },
+          "tooltip": "",
+          "type": "circle",
+          "id": "marker_1765272991130",
+          "longitude": 4.6300978906580506,
+          "latitude": -0.022811539591264474
+        },
+        {
+          "target": "scene_1765202020346",
+          "circle": 30,
+          "svgStyle": {
+            "fill": "rgba(0, 128, 255, 0.3)",
+            "stroke": "rgba(0, 128, 255, 1)",
+            "strokeWidth": "3px"
+          },
+          "tooltip": "",
+          "type": "circle",
+          "id": "marker_1765273064555",
+          "longitude": 3.478995943970585,
+          "latitude": -0.04668297822691292
+        }
+      ],
+      "visible": false
+    },
+    {
+      "id": "scene_1765202111764",
+      "name": "Кабинет физики",
+      "panorama": "/src/scenarios/default/p_res/kabinets/PIC_20251201_162051_20260121222602.jpg",
+      "markers": [
+        {
+          "target": "scene_1765202124296",
+          "circle": 25,
+          "svgStyle": {
+            "fill": "rgba(255, 128, 64, 0.3)",
+            "stroke": "rgba(255, 128, 64, 1)",
+            "strokeWidth": "3px"
+          },
+          "tooltip": "",
+          "type": "circle",
+          "id": "marker_1765273311880",
+          "longitude": 6.260346581315634,
+          "latitude": -0.028995242878688376
+        },
+        {
+          "target": "scene_1764321903587",
+          "circle": 50,
+          "svgStyle": {
+            "fill": "rgba(0, 243, 71, 0.3)",
+            "stroke": "rgba(0, 243, 71, 1)",
+            "strokeWidth": "3px"
+          },
+          "tooltip": "В коридор",
+          "type": "circle",
+          "id": "marker_1765273351169",
+          "longitude": 1.4991841483823558,
+          "latitude": -0.05912920451586334
+        },
+        {
+          "target": "scene_1765202506138",
+          "circle": 30,
+          "svgStyle": {
+            "fill": "rgba(255, 128, 64, 0.3)",
+            "stroke": "rgba(255, 128, 64, 1)",
+            "strokeWidth": "3px"
+          },
+          "tooltip": "",
+          "type": "circle",
+          "id": "marker_1765273368150",
+          "longitude": 4.966664055686066,
+          "latitude": -0.0613477555822306
+        },
+        {
+          "id": "marker_1765273524072",
+          "longitude": 5.7368855528072755,
+          "latitude": -0.02164641345594953,
+          "target": "scene_1765202142431",
+          "circle": 30,
+          "svgStyle": {
+            "fill": "rgba(255, 128, 64, 0.3)",
+            "stroke": "rgba(255, 128, 64, 1)",
+            "strokeWidth": "3px"
+          },
+          "tooltip": "",
+          "type": "circle"
+        }
+      ],
+      "visible": true
+    },
+    {
+      "id": "scene_1765202118693",
+      "name": "408 2",
+      "panorama": "/src/scenarios/Технопарк_ЛГПУ/p_res/kabinets/PIC_20251201_162217_20251202115420.jpg",
+      "markers": [],
+      "visible": false
+    },
+    {
+      "id": "scene_1765202124296",
+      "name": "408 3",
+      "panorama": "/src/scenarios/default/p_res/kabinets/PIC_20251201_162425_20260121222602.jpg",
+      "markers": [
+        {
+          "target": "scene_1765202131060",
+          "circle": 50,
+          "svgStyle": {
+            "fill": "rgba(255, 128, 64, 0.3)",
+            "stroke": "rgba(255, 128, 64, 1)",
+            "strokeWidth": "3px"
+          },
+          "tooltip": "",
+          "type": "circle",
+          "id": "marker_1765273274020",
+          "longitude": 0.08320235919747289,
+          "latitude": -0.018037438646989035
+        },
+        {
+          "target": "scene_1765202142431",
+          "circle": 30,
+          "svgStyle": {
+            "fill": "rgba(255, 128, 64, 0.3)",
+            "stroke": "rgba(255, 128, 64, 1)",
+            "strokeWidth": "3px"
+          },
+          "tooltip": "",
+          "type": "circle",
+          "id": "marker_1765273293866",
+          "longitude": 4.7722104290529135,
+          "latitude": -0.04817140028416489
+        },
+        {
+          "target": "scene_1765202111764",
+          "circle": 30,
+          "svgStyle": {
+            "fill": "rgba(255, 128, 64, 0.3)",
+            "stroke": "rgba(255, 128, 64, 1)",
+            "strokeWidth": "3px"
+          },
+          "tooltip": "",
+          "type": "circle",
+          "id": "marker_1765273433960",
+          "longitude": 3.13856382982911,
+          "latitude": -0.00023507799986344224
+        }
+      ],
+      "visible": false
+    },
+    {
+      "id": "scene_1765202131060",
+      "name": "408 4",
+      "panorama": "/src/scenarios/default/p_res/kabinets/PIC_20251201_162510_20260121222602.jpg",
+      "markers": [
+        {
+          "target": "scene_1764322159369",
+          "circle": 50,
+          "svgStyle": {
+            "fill": "rgba(0, 243, 71, 0.3)",
+            "stroke": "rgba(0, 243, 71, 1)",
+            "strokeWidth": "3px"
+          },
+          "tooltip": "В коридор",
+          "type": "circle",
+          "id": "marker_1765273193079",
+          "longitude": 1.7737283872468015,
+          "latitude": -0.11254850014540407
+        },
+        {
+          "target": "scene_1765202124296",
+          "circle": 50,
+          "svgStyle": {
+            "fill": "rgba(255, 128, 64, 0.3)",
+            "stroke": "rgba(255, 128, 64, 1)",
+            "strokeWidth": "3px"
+          },
+          "tooltip": "",
+          "type": "circle",
+          "id": "marker_1765273210496",
+          "longitude": 3.0560466905237655,
+          "latitude": -0.03584387052350291
+        },
+        {
+          "id": "marker_1765273221823",
+          "longitude": 4.657278121075928,
+          "latitude": "",
+          "target": "scene_1765202136984",
+          "circle": 30,
+          "svgStyle": {
+            "fill": "rgba(255, 128, 64, 0.3)",
+            "stroke": "rgba(255, 128, 64, 1)",
+            "strokeWidth": "3px"
+          },
+          "tooltip": "",
+          "type": "circle"
+        }
+      ],
+      "visible": false
+    },
+    {
+      "id": "scene_1765202136984",
+      "name": "408 5",
+      "panorama": "/src/scenarios/default/p_res/kabinets/PIC_20251201_162556_20260121222602.jpg",
+      "markers": [
+        {
+          "target": "scene_1765202131060",
+          "circle": 30,
+          "svgStyle": {
+            "fill": "rgba(255, 128, 64, 0.3)",
+            "stroke": "rgba(255, 128, 64, 1)",
+            "strokeWidth": "3px"
+          },
+          "tooltip": "",
+          "type": "circle",
+          "id": "marker_1765273258397",
+          "longitude": 1.5138307453985664,
+          "latitude": -0.008449359944251
+        }
+      ],
+      "visible": false
+    },
+    {
+      "id": "scene_1765202142431",
+      "name": "408 6",
+      "panorama": "/src/scenarios/default/p_res/kabinets/PIC_20251201_162703_20260121222602.jpg",
+      "markers": [
+        {
+          "target": "scene_1765202124296",
+          "circle": 30,
+          "svgStyle": {
+            "fill": "rgba(255, 128, 64, 0.3)",
+            "stroke": "rgba(255, 128, 64, 1)",
+            "strokeWidth": "3px"
+          },
+          "tooltip": "",
+          "type": "circle",
+          "id": "marker_1765273711293",
+          "longitude": 1.427197472810029,
+          "latitude": -0.023526260866678417
+        },
+        {
+          "id": "marker_1765273722415",
+          "longitude": 2.5784676301647003,
+          "latitude": -0.0041026740874708,
+          "target": "scene_1765202111764",
+          "circle": 30,
+          "svgStyle": {
+            "fill": "rgba(255, 128, 64, 0.3)",
+            "stroke": "rgba(255, 128, 64, 1)",
+            "strokeWidth": "3px"
+          },
+          "tooltip": "",
+          "type": "circle"
+        },
+        {
+          "target": "scene_1765202506138",
+          "circle": 30,
+          "svgStyle": {
+            "fill": "rgba(255, 128, 64, 0.3)",
+            "stroke": "rgba(255, 128, 64, 1)",
+            "strokeWidth": "3px"
+          },
+          "tooltip": "",
+          "type": "circle",
+          "id": "marker_1765273730962",
+          "longitude": 3.1707762766382084,
+          "latitude": -0.004102674087470781
+        }
+      ],
+      "visible": false
+    },
+    {
+      "id": "scene_1765202506138",
+      "name": "408 8",
+      "panorama": "/src/scenarios/default/p_res/kabinets/PIC_20251201_162944_20260121222602.jpg",
+      "markers": [
+        {
+          "id": "marker_1765273542413",
+          "longitude": 1.7029148837497343,
+          "latitude": -0.02750263179111423,
+          "target": "scene_1765202111764",
+          "circle": 30,
+          "svgStyle": {
+            "fill": "rgba(255, 128, 64, 0.3)",
+            "stroke": "rgba(255, 128, 64, 1)",
+            "strokeWidth": "3px"
+          },
+          "tooltip": "",
+          "type": "circle"
+        },
+        {
+          "id": "marker_1765273551247",
+          "longitude": 6.246964433823257,
+          "latitude": -0.0137210991818635,
+          "target": "scene_1765202142431",
+          "circle": 30,
+          "svgStyle": {
+            "fill": "rgba(255, 128, 64, 0.3)",
+            "stroke": "rgba(255, 128, 64, 1)",
+            "strokeWidth": "3px"
+          },
+          "tooltip": "",
+          "type": "circle"
+        },
+        {
+          "id": "marker_1765273560057",
+          "longitude": 0.4758654822454751,
+          "latitude": -0.013721099181863483,
+          "target": "scene_1765202124296",
+          "circle": 30,
+          "svgStyle": {
+            "fill": "rgba(255, 128, 64, 0.3)",
+            "stroke": "rgba(255, 128, 64, 1)",
+            "strokeWidth": "3px"
+          },
+          "tooltip": "",
+          "type": "circle"
+        }
+      ],
+      "visible": false
+    },
+    {
+      "id": "scene_1765202628582",
+      "name": "Кабинет аналитической химии",
+      "panorama": "/src/scenarios/default/p_res/kabinets/PIC_20251201_163154_20260121222602.jpg",
+      "markers": [
+        {
+          "target": "scene_1764321806909",
+          "tooltip": "В коридор",
+          "circle": 30,
+          "svgStyle": {
+            "fill": "rgba(0, 243, 71, 0.3)",
+            "stroke": "rgba(0, 243, 71, 1)",
+            "strokeWidth": "3px"
+          },
+          "type": "circle",
+          "id": "marker_1765278542345",
+          "longitude": 1.6485574041673192,
+          "latitude": -0.05738233313272589
+        },
+        {
+          "target": "scene_1765202636312",
+          "tooltip": "",
+          "circle": 40,
+          "svgStyle": {
+            "fill": "rgba(255, 128, 64, 0.3)",
+            "stroke": "rgba(255, 128, 64, 0.3)",
+            "strokeWidth": "3px"
+          },
+          "type": "circle",
+          "id": "marker_1765278564558",
+          "longitude": 4.532706279407734,
+          "latitude": -0.04968645175381292
+        },
+        {
+          "target": "scene_1765202641078",
+          "circle": 30,
+          "svgStyle": {
+            "fill": "rgba(255, 128, 64, 0.3)",
+            "stroke": "rgba(255, 128, 64, 1)",
+            "strokeWidth": "3px"
+          },
+          "tooltip": "",
+          "type": "circle",
+          "id": "marker_1775159716899",
+          "longitude": 0.01072234748284549,
+          "latitude": -0.06879095743924823
+        }
+      ],
+      "visible": true
+    },
+    {
+      "id": "scene_1765202636312",
+      "name": "406 2",
+      "panorama": "/src/scenarios/default/p_res/kabinets/PIC_20251201_163241_20260121222602.jpg",
+      "markers": [
+        {
+          "id": "marker_1765278606645",
+          "longitude": 1.3931523642442467,
+          "latitude": -0.025181955344461215,
+          "target": "scene_1765202628582",
+          "circle": 30,
+          "svgStyle": {
+            "fill": "rgba(255, 128, 64, 0.3)",
+            "stroke": "rgba(255, 128, 64, 1)",
+            "strokeWidth": "3px"
+          },
+          "tooltip": "",
+          "type": "circle"
+        }
+      ],
+      "visible": false
+    },
+    {
+      "id": "scene_1765202641078",
+      "name": "406 3",
+      "panorama": "/src/scenarios/default/p_res/kabinets/PIC_20251201_163424_20260121222602.jpg",
+      "markers": [
+        {
+          "target": "scene_1765202628582",
+          "tooltip": "",
+          "circle": 30,
+          "svgStyle": {
+            "fill": "rgba(255, 128, 64, 0.3)",
+            "stroke": "rgba(255, 128, 64, 1)",
+            "strokeWidth": "3px"
+          },
+          "type": "circle",
+          "id": "marker_1765278627325",
+          "longitude": 3.062313891564095,
+          "latitude": -0.03759122993448072
+        },
+        {
+          "target": "scene_1765202645340",
+          "tooltip": "",
+          "circle": 30,
+          "svgStyle": {
+            "fill": "rgba(255, 128, 64, 0.3)",
+            "stroke": "rgba(255, 128, 64, 1)",
+            "strokeWidth": "3px"
+          },
+          "type": "circle",
+          "id": "marker_1765278635747",
+          "longitude": 4.754704306938093,
+          "latitude": -0.07068262884120147
+        },
+        {
+          "id": "marker_1765278694154",
+          "longitude": 0.059379418888816995,
+          "latitude": -0.014840893186112591,
+          "target": "scene_1765202653911",
+          "circle": 30,
+          "svgStyle": {
+            "fill": "rgba(255, 128, 64, 0.3)",
+            "stroke": "rgba(255, 128, 64, 1)",
+            "strokeWidth": "3px"
+          },
+          "tooltip": "",
+          "type": "circle"
+        }
+      ],
+      "visible": false
+    },
+    {
+      "id": "scene_1765202645340",
+      "name": "406 4",
+      "panorama": "/src/scenarios/default/p_res/kabinets/PIC_20251201_163546_20260121222602.jpg",
+      "markers": [
+        {
+          "target": "scene_1765202641078",
+          "tooltip": "",
+          "circle": 30,
+          "svgStyle": {
+            "fill": "rgba(255, 128, 64, 0.3)",
+            "stroke": "rgba(255, 128, 64, 1)",
+            "strokeWidth": "3px"
+          },
+          "type": "circle",
+          "id": "marker_1765278714928",
+          "longitude": 1.6405104540688757,
+          "latitude": -0.0234954184026126
+        }
+      ],
+      "visible": false
+    },
+    {
+      "id": "scene_1765202653911",
+      "name": "406 5",
+      "panorama": "/src/scenarios/default/p_res/kabinets/PIC_20251201_163643_20260121222602.jpg",
+      "markers": [
+        {
+          "target": "scene_1765202641078",
+          "tooltip": "",
+          "circle": 30,
+          "svgStyle": {
+            "fill": "rgba(255, 128, 64, 0.3)",
+            "stroke": "rgba(255, 128, 64, 1)",
+            "strokeWidth": "3px"
+          },
+          "type": "circle",
+          "id": "marker_1765278782835",
+          "longitude": 3.139234317132179,
+          "latitude": -0.029986312314987718
+        },
+        {
+          "target": "scene_1765202659695",
+          "tooltip": "",
+          "circle": 30,
+          "svgStyle": {
+            "fill": "rgba(255, 128, 64, 0.3)",
+            "stroke": "rgba(255, 128, 64, 1)",
+            "strokeWidth": "3px"
+          },
+          "type": "circle",
+          "id": "marker_1765278791981",
+          "longitude": 4.61940568664598,
+          "latitude": -0.051622625356240626
+        },
+        {
+          "id": "marker_1765278804439",
+          "tooltip": "Лаборатория аналитической химий",
+          "longitude": 0.4854634316159108,
+          "latitude": 0.01761357637576655,
+          "target": "",
+          "type": "html",
+          "html": "❌",
+          "anchor": "bottom center",
+          "style": {
+            "maxWidth": "30px",
+            "color": "white",
+            "fontSize": "20px",
+            "textShadow": "0 0 10px black"
+          }
+        }
+      ],
+      "visible": false
+    },
+    {
+      "id": "scene_1765202659695",
+      "name": "406 6",
+      "panorama": "/src/scenarios/default/p_res/kabinets/PIC_20251201_163751_20260121222602.jpg",
+      "markers": [
+        {
+          "id": "marker_1765278978277",
+          "tooltip": "Новый маркер",
+          "longitude": 1.5635073192386815,
+          "latitude": -0.045131731443865064,
+          "target": "scene_1765202653911",
+          "type": "circle",
+          "circle": 30,
+          "svgStyle": {
+            "fill": "rgba(0, 243, 71, 0.3)",
+            "stroke": "rgba(0, 243, 71, 1)",
+            "strokeWidth": "3px"
+          }
+        },
+        {
+          "tooltip": "Новый маркер",
+          "target": "scene_1765202641078",
+          "type": "circle",
+          "circle": 30,
+          "svgStyle": {
+            "fill": "rgba(0, 243, 71, 0.3)",
+            "stroke": "rgba(0, 243, 71, 1)",
+            "strokeWidth": "3px"
+          },
+          "id": "marker_1765279000614",
+          "longitude": 2.4772778525570267,
+          "latitude": -0.034313574923239276
+        }
+      ],
+      "visible": false
+    },
+    {
+      "id": "scene_1765216684881",
+      "name": "Кабинет общей и неорганической химии",
+      "panorama": "/src/scenarios/default/p_res/kabinets/PIC_20251202_162723_20260225012340.jpg",
+      "markers": [
+        {
+          "target": "scene_1764321879456",
+          "circle": 40,
+          "svgStyle": {
+            "fill": "rgba(0, 243, 71, 0.3)",
+            "stroke": "rgba(0, 243, 71, 1)",
+            "strokeWidth": "3px"
+          },
+          "tooltip": "В коридор",
+          "type": "circle",
+          "id": "marker_1765273918512",
+          "longitude": 1.623574871441552,
+          "latitude": -0.03964117959487501
+        },
+        {
+          "target": "scene_1765216689596",
+          "circle": 30,
+          "svgStyle": {
+            "fill": "rgba(0, 128, 255, 0.3)",
+            "stroke": "rgba(0, 128, 255, 1)",
+            "strokeWidth": "3px"
+          },
+          "tooltip": "",
+          "type": "circle",
+          "id": "marker_1765277763963",
+          "longitude": 4.644156275265431,
+          "latitude": -0.009444389741513515
+        },
+        {
+          "target": "scene_1765216695431",
+          "circle": 30,
+          "svgStyle": {
+            "fill": "rgba(0, 128, 255, 0.3)",
+            "stroke": "rgba(0, 128, 255, 1)",
+            "strokeWidth": "3px"
+          },
+          "tooltip": "",
+          "type": "circle",
+          "id": "marker_1765280441243",
+          "longitude": 0.006725634358222198,
+          "latitude": -0.05386425579129073
+        }
+      ],
+      "visible": true
+    },
+    {
+      "id": "scene_1765216689596",
+      "name": "407 2",
+      "panorama": "/src/scenarios/default/p_res/kabinets/PIC_20251202_162801_20260225012333.jpg",
+      "markers": [
+        {
+          "target": "scene_1765216684881",
+          "circle": 30,
+          "svgStyle": {
+            "fill": "rgba(0, 128, 255, 0.3)",
+            "stroke": "rgba(0, 128, 255, 1)",
+            "strokeWidth": "3px"
+          },
+          "tooltip": "",
+          "type": "circle",
+          "id": "marker_1765277846299",
+          "longitude": 1.442643527622331,
+          "latitude": -0.044286599595823706
+        }
+      ],
+      "visible": false
+    },
+    {
+      "id": "scene_1765216695431",
+      "name": "407 3",
+      "panorama": "/src/scenarios/default/p_res/kabinets/PIC_20251202_162842_20260225012340.jpg",
+      "markers": [
+        {
+          "target": "scene_1765216684881",
+          "circle": 30,
+          "svgStyle": {
+            "fill": "rgba(0, 128, 255, 0.3)",
+            "stroke": "rgba(0, 128, 255, 1)",
+            "strokeWidth": "3px"
+          },
+          "tooltip": "",
+          "type": "circle",
+          "id": "marker_1765277861990",
+          "longitude": 2.9035113113298356,
+          "latitude": -0.058633391888775144
+        },
+        {
+          "target": "scene_1765216700604",
+          "circle": 30,
+          "svgStyle": {
+            "fill": "rgba(0, 128, 255, 0.3)",
+            "stroke": "rgba(0, 128, 255, 1)",
+            "strokeWidth": "3px"
+          },
+          "tooltip": "",
+          "type": "circle",
+          "id": "marker_1765277885315",
+          "longitude": 4.677117936998882,
+          "latitude": -0.0737515872627541
+        },
+        {
+          "target": "scene_1765216706572",
+          "circle": 30,
+          "svgStyle": {
+            "fill": "rgba(0, 128, 255, 0.3)",
+            "stroke": "rgba(0, 128, 255, 1)",
+            "strokeWidth": "3px"
+          },
+          "tooltip": "",
+          "type": "circle",
+          "id": "marker_1765280514148",
+          "longitude": 6.274710444529937,
+          "latitude": -0.028557314479017215
+        }
+      ],
+      "visible": false
+    },
+    {
+      "id": "scene_1765216700604",
+      "name": "407 4",
+      "panorama": "/src/scenarios/default/p_res/kabinets/PIC_20251202_162916_20260225012340.jpg",
+      "markers": [
+        {
+          "target": "scene_1765216695431",
+          "circle": 30,
+          "svgStyle": {
+            "fill": "rgba(0, 128, 255, 0.3)",
+            "stroke": "rgba(0, 128, 255, 1)",
+            "strokeWidth": "3px"
+          },
+          "tooltip": "",
+          "type": "circle",
+          "id": "marker_1765277905007",
+          "longitude": 1.516216144819406,
+          "latitude": -0.06079321143206595
+        }
+      ],
+      "visible": false
+    },
+    {
+      "id": "scene_1765216706572",
+      "name": "407 5",
+      "panorama": "/src/scenarios/default/p_res/kabinets/PIC_20251202_163012_20260225012340.jpg",
+      "markers": [
+        {
+          "target": "scene_1765216695431",
+          "circle": 30,
+          "svgStyle": {
+            "fill": "rgba(0, 128, 255, 0.3)",
+            "stroke": "rgba(0, 128, 255, 1)",
+            "strokeWidth": "3px"
+          },
+          "tooltip": "",
+          "type": "circle",
+          "id": "marker_1765277921604",
+          "longitude": 3.1231275466568835,
+          "latitude": -0.05259793297810145
+        },
+        {
+          "target": "scene_1765216711172",
+          "circle": 30,
+          "svgStyle": {
+            "fill": "rgba(0, 128, 255, 0.3)",
+            "stroke": "rgba(0, 128, 255, 1)",
+            "strokeWidth": "3px"
+          },
+          "tooltip": "",
+          "type": "circle",
+          "id": "marker_1765277939098",
+          "longitude": 5.103379453298947,
+          "latitude": -0.049234870754369275
+        },
+        {
+          "target": "scene_1765216700604",
+          "circle": 30,
+          "svgStyle": {
+            "fill": "rgba(0, 128, 255, 0.3)",
+            "stroke": "rgba(0, 128, 255, 1)",
+            "strokeWidth": "3px"
+          },
+          "tooltip": "",
+          "type": "circle",
+          "id": "marker_1765280575350",
+          "longitude": 3.931551306915124,
+          "latitude": -0.034884049807086814
+        }
+      ],
+      "visible": false
+    },
+    {
+      "id": "scene_1765216711172",
+      "name": "407 6",
+      "panorama": "/src/scenarios/default/p_res/kabinets/PIC_20251202_163057_20260225012340.jpg",
+      "markers": [
+        {
+          "target": "scene_1765216706572",
+          "circle": 30,
+          "svgStyle": {
+            "fill": "rgba(0, 243, 71, 0.3)",
+            "stroke": "rgba(0, 243, 71, 1)",
+            "strokeWidth": "3px"
+          },
+          "tooltip": "",
+          "type": "circle",
+          "id": "marker_1765277951373",
+          "longitude": 1.9079372808100739,
+          "latitude": -0.07587891358413712
+        }
+      ],
+      "visible": false
+    },
+    {
+      "id": "scene_1765216853932",
+      "name": "405А 1",
+      "panorama": "/src/scenarios/Технопарк_ЛГПУ/p_res/kabinets/PIC_20251201_163924_20251202115420.jpg",
+      "markers": [],
+      "visible": false
+    },
+    {
+      "id": "scene_1765216862784",
+      "name": "Лаборатория химического анализа и синтеза",
+      "panorama": "/src/scenarios/default/p_res/kabinets/PIC_20251201_164047_20260121222602.jpg",
+      "markers": [
+        {
+          "target": "scene_1764321681400",
+          "circle": 30,
+          "svgStyle": {
+            "fill": "rgba(0, 243, 71, 0.3)",
+            "stroke": "rgba(0, 243, 71, 1)",
+            "strokeWidth": "3px"
+          },
+          "tooltip": "В коридор",
+          "type": "circle",
+          "id": "marker_1765279104601",
+          "longitude": 1.7580231589232227,
+          "latitude": -0.04481291247393493
+        }
+      ],
+      "visible": false
+    },
+    {
+      "id": "scene_1765216992432",
+      "name": "Лаборатория химического анализа и синтеза",
+      "panorama": "/src/scenarios/default/p_res/kabinets/PIC_20251201_164224_20260121222602.jpg",
+      "markers": [
+        {
+          "target": "scene_1765217058235",
+          "tooltip": "",
+          "circle": 25,
+          "svgStyle": {
+            "fill": "rgba(0, 128, 255, 0.3)",
+            "stroke": "rgba(0, 128, 255, 1)",
+            "strokeWidth": "3px"
+          },
+          "type": "circle",
+          "id": "marker_1765268762018",
+          "longitude": 4.753745950190547,
+          "latitude": -0.02698728140298412
+        },
+        {
+          "id": "marker_1765268795692",
+          "longitude": 1.7655129239151788,
+          "latitude": -0.06180145315580132,
+          "target": "scene_1764321639027",
+          "tooltip": "",
+          "circle": 25,
+          "svgStyle": {
+            "fill": "rgba(0, 243, 71, 0.3)",
+            "stroke": "rgba(0, 243, 71, 1)",
+            "strokeWidth": "3px"
+          },
+          "type": "circle"
+        }
+      ],
+      "visible": true
+    },
+    {
+      "id": "scene_1765217058235",
+      "name": "405 2",
+      "panorama": "/src/scenarios/default/p_res/kabinets/PIC_20251201_164316_20260121222602.jpg",
+      "markers": [
+        {
+          "target": "scene_1765217058235",
+          "tooltip": "",
+          "circle": 25,
+          "svgStyle": {
+            "fill": "rgba(0, 128, 255, 0.3)",
+            "stroke": "rgba(0, 128, 255, 1)",
+            "strokeWidth": "3px"
+          },
+          "type": "circle",
+          "id": "marker_1765268840379",
+          "longitude": 1.5854164304271992,
+          "latitude": -0.046976262259870616
+        }
+      ],
+      "visible": false
+    },
+    {
+      "id": "scene_1765217114697",
+      "name": "Кабиет изучения физиологии",
+      "panorama": "/src/scenarios/default/p_res/kabinets/PIC_20251201_164421_20260121222602.jpg",
+      "markers": [
+        {
+          "id": "marker_1765268090577",
+          "longitude": 1.6684097847489832,
+          "latitude": -0.053029894060521165,
+          "target": "scene_1765217207279",
+          "circle": 25,
+          "svgStyle": {
+            "fill": "rgba(255, 128, 64, 0.3)",
+            "stroke": "rgba(255, 128, 64, 1)",
+            "strokeWidth": "3px"
+          },
+          "tooltip": "",
+          "type": "circle"
+        },
+        {
+          "id": "marker_1765268203211",
+          "longitude": 0,
+          "latitude": 0,
+          "target": "scene_1764321639027",
+          "tooltip": "",
+          "circle": 40,
+          "svgStyle": {
+            "fill": "rgba(0, 243, 71, 0.3)",
+            "stroke": "rgba(0, 243, 71, 1)",
+            "strokeWidth": "3px"
+          },
+          "type": "circle"
+        },
+        {
+          "id": "marker_1770374730482",
+          "longitude": 4.7036640118717585,
+          "latitude": -0.03241291403909363,
+          "target": "scene_1765217555928",
+          "tooltip": "",
+          "circle": 25,
+          "svgStyle": {
+            "fill": "rgba(255, 128, 64, 0.3)",
+            "stroke": "rgba(255, 128, 64, 1)",
+            "strokeWidth": "3px"
+          },
+          "type": "circle"
+        }
+      ],
+      "visible": true
+    },
+    {
+      "id": "scene_1765217207279",
+      "name": "404 2",
+      "panorama": "/src/scenarios/default/p_res/kabinets/PIC_20251201_164503_20260121222602.jpg",
+      "markers": [
+        {
+          "target": "scene_1765217114697",
+          "circle": 25,
+          "svgStyle": {
+            "fill": "rgba(255, 128, 64, 0.3)",
+            "stroke": "rgba(255, 128, 64, 1)",
+            "strokeWidth": "3px"
+          },
+          "tooltip": "",
+          "type": "circle",
+          "id": "marker_1765268344192",
+          "longitude": 4.835604360337923,
+          "latitude": -0.031981372855334644
+        },
+        {
+          "target": "scene_1765217291432",
+          "circle": 25,
+          "svgStyle": {
+            "fill": "rgba(255, 128, 64, 0.3)",
+            "stroke": "rgba(255, 128, 64, 1)",
+            "strokeWidth": "3px"
+          },
+          "tooltip": "",
+          "type": "circle",
+          "id": "marker_1765268451190",
+          "longitude": 1.612256056758973,
+          "latitude": -0.06344782863064324
+        }
+      ],
+      "visible": false
+    },
+    {
+      "id": "scene_1765217291432",
+      "name": "404 3",
+      "panorama": "/src/scenarios/default/p_res/kabinets/PIC_20251201_164734_20260121222602.jpg",
+      "markers": [
+        {
+          "target": "scene_1765217207279",
+          "circle": 25,
+          "svgStyle": {
+            "fill": "rgba(255, 128, 64, 0.3)",
+            "stroke": "rgba(255, 128, 64, 1)",
+            "strokeWidth": "3px"
+          },
+          "tooltip": "",
+          "type": "circle",
+          "id": "marker_1765268480713",
+          "longitude": 4.68111493417441,
+          "latitude": -0.013256345510799683
+        }
+      ],
+      "visible": false
+    },
+    {
+      "id": "scene_1765217344374",
+      "name": "404 4",
+      "panorama": "/src/scenarios/default/p_res/kabinets/PIC_20251201_165411_20260121222602.jpg",
+      "markers": [
+        {
+          "target": "scene_1765217555928",
+          "tooltip": "",
+          "circle": 25,
+          "svgStyle": {
+            "fill": "rgba(0, 128, 255, 0.3)",
+            "stroke": "rgba(0, 128, 255, 1)",
+            "strokeWidth": "3px"
+          },
+          "type": "circle",
+          "id": "marker_1765268697398",
+          "longitude": 1.5769033666832306,
+          "latitude": -0.04132252859532315
+        }
+      ],
+      "visible": false
+    },
+    {
+      "id": "scene_1765217555928",
+      "name": "404 5",
+      "panorama": "/src/scenarios/default/p_res/kabinets/PIC_20251201_165450_20260121222602.jpg",
+      "markers": [
+        {
+          "target": "scene_1765217114697",
+          "circle": 25,
+          "svgStyle": {
+            "fill": "rgba(255, 128, 64, 0.3)",
+            "stroke": "rgba(255, 128, 64, 1)",
+            "strokeWidth": "3px"
+          },
+          "tooltip": "",
+          "type": "circle",
+          "id": "marker_1765268539678",
+          "longitude": 1.630891519936813,
+          "latitude": -0.05093907355906957
+        },
+        {
+          "id": "marker_1765268567806",
+          "longitude": 0.9684457380205036,
+          "latitude": -0.04274717615727042,
+          "target": "scene_1764321639027",
+          "tooltip": "",
+          "circle": 25,
+          "svgStyle": {
+            "fill": "rgba(255, 128, 64, 0.3)",
+            "stroke": "rgba(255, 128, 64, 1)",
+            "strokeWidth": "3px"
+          },
+          "type": "circle"
+        },
+        {
+          "target": "scene_1765217344374",
+          "tooltip": "",
+          "circle": 25,
+          "svgStyle": {
+            "fill": "rgba(255, 128, 64, 0.3)",
+            "stroke": "rgba(255, 128, 64, 1)",
+            "strokeWidth": "3px"
+          },
+          "type": "circle",
+          "id": "marker_1765268662798",
+          "longitude": 4.748368896717261,
+          "latitude": -0.012835251266710923
+        }
+      ],
+      "visible": false
+    },
+    {
+      "id": "scene_1765220017013",
+      "name": "Кабинет органическая химии",
+      "panorama": "/src/scenarios/default/p_res/kabinets/PIC_20251202_161211_20260225012340.jpg",
+      "markers": [
+        {
+          "id": "marker_1765278130069",
+          "longitude": 1.5104507022287073,
+          "latitude": -0.02575563402379144,
+          "target": "scene_1765220023138",
+          "circle": 30,
+          "svgStyle": {
+            "fill": "rgba(255, 128, 64, 0.3)",
+            "stroke": "rgba(255, 128, 64, 1)",
+            "strokeWidth": "3px"
+          },
+          "tooltip": "",
+          "type": "circle"
+        },
+        {
+          "target": "scene_1764321879456",
+          "tooltip": "В коридор",
+          "circle": 30,
+          "svgStyle": {
+            "fill": "rgba(0, 243, 71, 0.3)",
+            "stroke": "rgba(0, 243, 71, 1)",
+            "strokeWidth": "3px"
+          },
+          "type": "circle",
+          "id": "marker_1765278161774",
+          "longitude": 4.6774303754757565,
+          "latitude": 0.004488271124388099
+        },
+        {
+          "target": "scene_1765220028105",
+          "tooltip": "",
+          "circle": 30,
+          "svgStyle": {
+            "fill": "rgba(255, 128, 64, 0.3)",
+            "stroke": "rgba(255, 128, 64, 1)",
+            "strokeWidth": "3px"
+          },
+          "type": "circle",
+          "id": "marker_1765278188311",
+          "longitude": 0.01986852296970057,
+          "latitude": -0.049518702354504285
+        }
+      ],
+      "visible": true
+    },
+    {
+      "id": "scene_1765220023138",
+      "name": "402 2",
+      "panorama": "/src/scenarios/default/p_res/kabinets/PIC_20251202_161327_20260225012340.jpg",
+      "markers": [
+        {
+          "target": "scene_1765220017013",
+          "tooltip": "В коридор",
+          "circle": 30,
+          "svgStyle": {
+            "fill": "rgba(255, 128, 64, 0.3)",
+            "stroke": "rgba(255, 128, 64, 1)",
+            "strokeWidth": "3px"
+          },
+          "type": "circle",
+          "id": "marker_1765278320056",
+          "longitude": 4.720672413981473,
+          "latitude": -0.03655702871956956
+        }
+      ],
+      "visible": false
+    },
+    {
+      "id": "scene_1765220028105",
+      "name": "402 3",
+      "panorama": "/src/scenarios/default/p_res/kabinets/PIC_20251202_161439_20260225012340.jpg",
+      "markers": [
+        {
+          "target": "scene_1765220034295",
+          "tooltip": "В коридор",
+          "circle": 30,
+          "svgStyle": {
+            "fill": "rgba(255, 128, 64, 0.3)",
+            "stroke": "rgba(255, 128, 64, 1)",
+            "strokeWidth": "3px"
+          },
+          "type": "circle",
+          "id": "marker_1765278230360",
+          "longitude": 1.5104507022287073,
+          "latitude": -0.06464065492859428
+        },
+        {
+          "target": "scene_1765220017013",
+          "tooltip": "В коридор",
+          "circle": 30,
+          "svgStyle": {
+            "fill": "rgba(255, 128, 64, 0.3)",
+            "stroke": "rgba(255, 128, 64, 1)",
+            "strokeWidth": "3px"
+          },
+          "type": "circle",
+          "id": "marker_1765278248840",
+          "longitude": 3.199321336526753,
+          "latitude": -0.027915912962947154
+        },
+        {
+          "target": "scene_1765220039011",
+          "tooltip": "",
+          "circle": 30,
+          "svgStyle": {
+            "fill": "rgba(255, 128, 64, 0.3)",
+            "stroke": "rgba(255, 128, 64, 1)",
+            "strokeWidth": "3px"
+          },
+          "type": "circle",
+          "id": "marker_1765280943624",
+          "longitude": 0.061530935353612835,
+          "latitude": -0.06402964347960216
+        }
+      ],
+      "visible": false
+    },
+    {
+      "id": "scene_1765220034295",
+      "name": "402 4",
+      "panorama": "/src/scenarios/default/p_res/kabinets/PIC_20251202_161523_20260225012340.jpg",
+      "markers": [
+        {
+          "target": "scene_1765220028105",
+          "tooltip": "В коридор",
+          "circle": 30,
+          "svgStyle": {
+            "fill": "rgba(255, 128, 64, 0.3)",
+            "stroke": "rgba(255, 128, 64, 1)",
+            "strokeWidth": "3px"
+          },
+          "type": "circle",
+          "id": "marker_1765278264653",
+          "longitude": 4.68819413255266,
+          "latitude": -0.08192288644183998
+        }
+      ],
+      "visible": false
+    },
+    {
+      "id": "scene_1765220039011",
+      "name": "402 5",
+      "panorama": "/src/scenarios/default/p_res/kabinets/PIC_20251202_161638_20260225012340.jpg",
+      "markers": [
+        {
+          "target": "scene_1765220028105",
+          "tooltip": "",
+          "circle": 30,
+          "svgStyle": {
+            "fill": "rgba(255, 128, 64, 0.3)",
+            "stroke": "rgba(255, 128, 64, 1)",
+            "strokeWidth": "3px"
+          },
+          "type": "circle",
+          "id": "marker_1765278281942",
+          "longitude": 3.2694060490836523,
+          "latitude": -0.049518702354504285
+        },
+        {
+          "target": "scene_1765220046796",
+          "tooltip": "",
+          "circle": 30,
+          "svgStyle": {
+            "fill": "rgba(255, 128, 64, 0.3)",
+            "stroke": "rgba(255, 128, 64, 1)",
+            "strokeWidth": "3px"
+          },
+          "type": "circle",
+          "id": "marker_1765278290016",
+          "longitude": 1.592501097417269,
+          "latitude": -0.05383926023281571
+        }
+      ],
+      "visible": false
+    },
+    {
+      "id": "scene_1765220046796",
+      "name": "402 6",
+      "panorama": "/src/scenarios/default/p_res/kabinets/PIC_20251202_161719_20260225012340.jpg",
+      "markers": [
+        {
+          "target": "scene_1765220039011",
+          "tooltip": "В коридор",
+          "circle": 30,
+          "svgStyle": {
+            "fill": "rgba(0, 243, 71, 0.3)",
+            "stroke": "rgba(0, 243, 71, 1)",
+            "strokeWidth": "3px"
+          },
+          "type": "circle",
+          "id": "marker_1765278303819",
+          "longitude": 4.727509946913852,
+          "latitude": -0.05599953917197098
+        }
+      ],
+      "visible": false
+    },
+    {
+      "id": "scene_1765279155844",
+      "name": "Кабинет физической и коллоидной химии",
+      "panorama": "/src/scenarios/default/p_res/kabinets/PIC_20251202_161849_20260225012340.jpg",
+      "markers": [
+        {
+          "id": "marker_1765279679445",
+          "longitude": 1.5693119950869323,
+          "latitude": -0.04999428994528188,
+          "target": "scene_1765279161632",
+          "circle": 30,
+          "svgStyle": {
+            "fill": "rgba(0, 128, 255, 0.3)",
+            "stroke": "rgba(0, 128, 255, 1)",
+            "strokeWidth": "3px"
+          },
+          "tooltip": "",
+          "type": "circle"
+        },
+        {
+          "id": "marker_1765279699471",
+          "longitude": 0.041837148144919456,
+          "latitude": -0.05982028712266496,
+          "target": "scene_1765279166098",
+          "circle": 30,
+          "svgStyle": {
+            "fill": "rgba(0, 128, 255, 0.3)",
+            "stroke": "rgba(0, 128, 255, 1)",
+            "strokeWidth": "3px"
+          },
+          "tooltip": "",
+          "type": "circle"
+        },
+        {
+          "target": "scene_1764321806909",
+          "circle": 30,
+          "svgStyle": {
+            "fill": "rgba(0, 243, 71, 0.3)",
+            "stroke": "rgba(0, 243, 71, 1)",
+            "strokeWidth": "3px"
+          },
+          "tooltip": "В коридор",
+          "type": "circle",
+          "id": "marker_1765280295776",
+          "longitude": 4.800390288456211,
+          "latitude": -0.05080427354955619
+        }
+      ],
+      "visible": true
+    },
+    {
+      "id": "scene_1765279161632",
+      "name": "403 2",
+      "panorama": "/src/scenarios/default/p_res/kabinets/PIC_20251202_161933_20260225012340.jpg",
+      "markers": [
+        {
+          "id": "marker_1765279731846",
+          "longitude": 4.702716895994185,
+          "latitude": -0.030342295590513046,
+          "target": "scene_1765279166098",
+          "circle": 30,
+          "svgStyle": {
+            "fill": "rgba(0, 128, 255, 0.3)",
+            "stroke": "rgba(0, 128, 255, 1)",
+            "strokeWidth": "3px"
+          },
+          "tooltip": "",
+          "type": "circle"
+        }
+      ],
+      "visible": false
+    },
+    {
+      "id": "scene_1765279166098",
+      "name": "403 3",
+      "panorama": "/src/scenarios/default/p_res/kabinets/PIC_20251202_162020_20260225012340.jpg",
+      "markers": [
+        {
+          "target": "scene_1765279155844",
+          "circle": 30,
+          "svgStyle": {
+            "fill": "rgba(0, 128, 255, 0.3)",
+            "stroke": "rgba(0, 128, 255, 1)",
+            "strokeWidth": "3px"
+          },
+          "tooltip": "",
+          "type": "circle",
+          "id": "marker_1765279768844",
+          "longitude": 3.133564126232158,
+          "latitude": -0.03683318950288861
+        },
+        {
+          "target": "scene_1765279170532",
+          "circle": 30,
+          "svgStyle": {
+            "fill": "rgba(0, 128, 255, 0.3)",
+            "stroke": "rgba(0, 128, 255, 1)",
+            "strokeWidth": "3px"
+          },
+          "tooltip": "",
+          "type": "circle",
+          "id": "marker_1765279778950",
+          "longitude": 1.5524330910520987,
+          "latitude": -0.05846950254413974
+        },
+        {
+          "target": "scene_1765279176396",
+          "circle": 30,
+          "svgStyle": {
+            "fill": "rgba(0, 128, 255, 0.3)",
+            "stroke": "rgba(0, 128, 255, 1)",
+            "strokeWidth": "3px"
+          },
+          "tooltip": "",
+          "type": "circle",
+          "id": "marker_1765279791697",
+          "longitude": 6.240797916859591,
+          "latitude": -0.03466955819876372
+        }
+      ],
+      "visible": false
+    },
+    {
+      "id": "scene_1765279170532",
+      "name": "403 4",
+      "panorama": "/src/scenarios/default/p_res/kabinets/PIC_20251202_162056_20260225012340.jpg",
+      "markers": [
+        {
+          "target": "scene_1765279166098",
+          "circle": 30,
+          "svgStyle": {
+            "fill": "rgba(0, 128, 255, 0.3)",
+            "stroke": "rgba(0, 128, 255, 1)",
+            "strokeWidth": "3px"
+          },
+          "tooltip": "",
+          "type": "circle",
+          "id": "marker_1765279818561",
+          "longitude": 4.730095788378252,
+          "latitude": -0.0779421842812682
+        }
+      ],
+      "visible": false
+    },
+    {
+      "id": "scene_1765279176396",
+      "name": "403 5",
+      "panorama": "/src/scenarios/default/p_res/kabinets/PIC_20251202_162135_20260225012340.jpg",
+      "markers": [
+        {
+          "target": "scene_1765279166098",
+          "circle": 30,
+          "svgStyle": {
+            "fill": "rgba(0, 128, 255, 0.3)",
+            "stroke": "rgba(0, 128, 255, 1)",
+            "strokeWidth": "3px"
+          },
+          "tooltip": "",
+          "type": "circle",
+          "id": "marker_1765279831532",
+          "longitude": 3.1198746800401196,
+          "latitude": -0.03250592689463927
+        },
+        {
+          "target": "scene_1765279180558",
+          "circle": 30,
+          "svgStyle": {
+            "fill": "rgba(0, 243, 71, 0.3)",
+            "stroke": "rgba(0, 243, 71, 1)",
+            "strokeWidth": "3px"
+          },
+          "tooltip": "",
+          "type": "circle",
+          "id": "marker_1765279842743",
+          "longitude": 1.2563988171493365,
+          "latitude": -0.0043787199410121325
+        },
+        {
+          "id": "marker_1765279878294",
+          "tooltip": "Лаборатория физической и коллойдной химий",
+          "longitude": 6.203422434796037,
+          "latitude": -0.015196876461637476,
+          "target": "",
+          "type": "html",
+          "html": "❌",
+          "anchor": "bottom center",
+          "style": {
+            "maxWidth": "30px",
+            "color": "white",
+            "fontSize": "20px",
+            "textShadow": "0 0 10px black"
+          }
+        }
+      ],
+      "visible": false
+    },
+    {
+      "id": "scene_1765279180558",
+      "name": "403 6",
+      "panorama": "/src/scenarios/default/p_res/kabinets/PIC_20251202_162216_20260225012340.jpg",
+      "markers": [
+        {
+          "target": "scene_1765279176396",
+          "circle": 30,
+          "svgStyle": {
+            "fill": "rgba(0, 243, 71, 0.3)",
+            "stroke": "rgba(0, 243, 71, 1)",
+            "strokeWidth": "3px"
+          },
+          "tooltip": "",
+          "type": "circle",
+          "id": "marker_1765279861013",
+          "longitude": 4.4528845029895425,
+          "latitude": -0.021687770374013038
+        }
+      ],
+      "visible": false
+    }
+  ],
+  "maps": [
+    {
+      "id": "map_1768336054276",
+      "name": "Этажи",
+      "image": "/src/scenarios/default/m_res/techParkMap.png"
+    }
+  ],
+  "warps": [
+    {
+      "id": "warp_1769506344738",
+      "mapId": "map_1768336054276",
+      "sceneId": "scene_1764323838645",
+      "x": 186,
+      "y": 108
+    },
+    {
+      "id": "warp_1769506364058",
+      "mapId": "map_1768336054276",
+      "sceneId": "scene_1764323724377",
+      "x": 181,
+      "y": 86
+    },
+    {
+      "id": "warp_1769506502354",
+      "mapId": "map_1768336054276",
+      "sceneId": "scene_1765197956676",
+      "x": 152,
+      "y": 80
+    },
+    {
+      "id": "warp_1769506892349",
+      "mapId": "map_1768336054276",
+      "sceneId": "scene_1764321358785",
+      "x": 186,
+      "y": 252
+    },
+    {
+      "id": "warp_1769507055072",
+      "mapId": "map_1768336054276",
+      "sceneId": "scene_1765217114697",
+      "x": 170,
+      "y": 281
+    },
+    {
+      "id": "warp_1769507106004",
+      "mapId": "map_1768336054276",
+      "sceneId": "scene_1765216992432",
+      "x": 157,
+      "y": 263
+    },
+    {
+      "id": "warp_1769507164787",
+      "mapId": "map_1768336054276",
+      "sceneId": "scene_1765216862784",
+      "x": 157,
+      "y": 248
+    },
+    {
+      "id": "warp_1769507211943",
+      "mapId": "map_1768336054276",
+      "sceneId": "scene_1765202628582",
+      "x": 155,
+      "y": 223
+    },
+    {
+      "id": "warp_1769507246321",
+      "mapId": "map_1768336054276",
+      "sceneId": "scene_1765279155844",
+      "x": 187,
+      "y": 223
+    },
+    {
+      "id": "warp_1769507314565",
+      "mapId": "map_1768336054276",
+      "sceneId": "scene_1765216684881",
+      "x": 155,
+      "y": 193
+    },
+    {
+      "id": "warp_1769507330742",
+      "mapId": "map_1768336054276",
+      "sceneId": "scene_1765220017013",
+      "x": 184,
+      "y": 193
+    },
+    {
+      "id": "warp_1769507393938",
+      "mapId": "map_1768336054276",
+      "sceneId": "scene_1765202111764",
+      "x": 155,
+      "y": 160
+    },
+    {
+      "id": "warp_1769507451867",
+      "mapId": "map_1768336054276",
+      "sceneId": "scene_1765201820904",
+      "x": 155,
+      "y": 93
+    },
+    {
+      "id": "warp_1769507483933",
+      "mapId": "map_1768336054276",
+      "sceneId": "scene_1765202025677",
+      "x": 184,
+      "y": 126
+    },
+    {
+      "id": "warp_1769507714613",
+      "mapId": "map_1768336054276",
+      "sceneId": "scene_1765199106925",
+      "x": 131,
+      "y": 90
+    },
+    {
+      "id": "warp_1769507759211",
+      "mapId": "map_1768336054276",
+      "sceneId": "scene_1765201626608",
+      "x": 131,
+      "y": 69
+    },
+    {
+      "id": "warp_1769507800075",
+      "mapId": "map_1768336054276",
+      "sceneId": "scene_1765199891811",
+      "x": 110,
+      "y": 65
+    },
+    {
+      "id": "warp_1769507847198",
+      "mapId": "map_1768336054276",
+      "sceneId": "scene_1765197983522",
+      "x": 110,
+      "y": 95
+    }
+  ],
+  "initialScene": "scene_1764323838645",
+  "initialMap": "map_1768336054276",
+  "initialCameraLongitude": 6.239025337415561,
+  "initialCameraLatitude": -0.028671640906296147,
+  "title": "default",
+  "description": "Сценарий default",
+  "modified": "2026-04-02",
+  "created": "2026-04-02"
+}
