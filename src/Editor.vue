@@ -1,4 +1,4 @@
-
+<!--Версия 23.2. Испправление багов. И ещё я решил добавить поисковую строку-->
 <template>
   <div id="app" class="VueApp">
     <!--Проигрыватель панорамы-->
@@ -147,9 +147,16 @@
         <h3>Управление сценами</h3>
         <button @click="AddNewScene" class="BtnGreenPattern">+ Добавить сцену</button>
         
+         <!--Версия 23.2. Поиск сцены-->
+        <div class="SceneSearch">
+              <label>Поиск сцены из списка:</label>
+              <input type="text" placeholder="Название сцены" v-model="sceneSearchQuery"> <!--Поиск сцены по совпадению scene.name -->
+            </div>
+
         <div class="SceneList">
+          <!-- До 23.2. вместо "filteredScenes" было "scenes"-->
           <div
-            v-for="scene in scenes"
+            v-for="scene in filteredScenes" 
             :key="scene.id"
             class="SceneExemplar"
             :class="{ active: scene.id === currentSceneId }"
@@ -271,7 +278,7 @@
             <div class="MarkerEditorParameters">
               <label>Изображение карты:</label>
               <input v-model="currentMap.image" type="text" placeholder="/src/scenarios/default/m_res/map.png">
-              <button @click="TestMapImage" class="BtnBasicPattern">Проверить</button>
+              <!--<button @click="TestMapImage" class="BtnBasicPattern">Проверить</button>--><!--Автоматизировано-->
             </div>
           </div>
 
@@ -500,7 +507,9 @@ export default {
       
       //Переменные для началного положения камеры
       initialCameraLongitude: 0,
-      initialCameraLatitude: 0
+      initialCameraLatitude: 0,
+
+      sceneSearchQuery: ''   // Версия 23.2 строка поиска сцен
     };
   },
 
@@ -516,7 +525,16 @@ export default {
     },
     currentMapWarps() {
       return this.warps.filter(w => w.mapId === this.currentMapId);
+    },
+    filteredScenes() { //Версия 23.2
+    if (!this.sceneSearchQuery.trim()) {
+      return this.scenes; // если строка пустая – показываем все сцены
     }
+    const query = this.sceneSearchQuery.toLowerCase().trim();
+    return this.scenes.filter(scene => 
+      scene.name && scene.name.toLowerCase().includes(query)
+    );
+  },
   },
 
   async mounted() { //Vue начинает работу алгоритма здесь
@@ -1029,9 +1047,10 @@ export default {
 
       this.OnEditingMarker = null;
       this.OnSetPosition = false;
-      //this.RefreshPanoramaPlayer();
       this.temp_id = this.currentSceneId;
-      this.SwitchScene(this.StartSceneId);
+      //Версия 23.2. Проблема заключалась здесь. RefreshPanoramaPlayer() раскоментирован, перемещён. SwitchScene(this.StartSceneId) закоментирован.
+      this.RefreshPanoramaPlayer();
+      //this.SwitchScene(this.StartSceneId);
       this.SwitchScene(this.temp_id);
     },
 
@@ -1042,9 +1061,10 @@ export default {
         this.currentScene.markers = this.currentScene.markers.filter(m => m.id !== this.OnEditingMarker.id);
         this.OnEditingMarker = null;
         this.OnSetPosition = false;
-        //this.RefreshPanoramaPlayer();
         this.temp_id = this.currentSceneId;
-        this.SwitchScene(this.StartSceneId);
+        //Версия 23.2. Для удаления это тоже касается
+        //this.SwitchScene(this.StartSceneId); 
+        this.RefreshPanoramaPlayer();
         this.SwitchScene(this.temp_id);
       }
     },

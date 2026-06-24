@@ -1,6 +1,10 @@
+<!--Версия 23. На этот раз обновление небольшое. Просто сюда добавлю пару простых кнопок со ссылками-->
+<!--По началу идея была использовать поисковик. Но так как масштаб слишком мал, чтобы что нибудь искать, пусть это будут кнопки выбора качества изображений-->
 <template>
 <div id="app" class="VueApp">
-  <button v-if="ETOMobile" class="BURGER" :class="{ active: RPanelOpenOrNot }"@click="OpenCloseRPanel"><!--Версия 20. Кнопка для экранов под смартфон-->
+  <!-- Если на трубе, то перед панелькой надо добавить кнопочку -->
+  <button v-if="ETOMobile" class="BURGER" :class="{ active: RPanelOpenOrNot }"@click="OpenCloseRPanel">
+    <!--Я это точно забуду. SPAN ЭТО ПОЛОСКИ БУРГЕРА! Они нужны-->
     <span></span>
     <span></span>
     <span></span>
@@ -19,14 +23,14 @@
       >
         {{ scene.name }}
       </div>
-    <!--Дополнительная возможность приложения "Выбор качества" в конце списка правой панели-->
-    <!--Реализованно с идеей под адаптацию на пользователей с очень слабой сетью-->
-    <!--<h3>Качество</h3> 
+      <!-- Версия 23. Новые кнопки после бургера будут здесь-->
+    <h3>Качество</h3> 
      <div class="Quality">
      <button class="QBut" @click="ChangeScenario1">Быстр</button>
      <button class="QBut" @click="ChangeScenario2">Средн</button>
      <button class="QBut" @click="ChangeScenario3">Выс</button>
-      </div>-->
+      </div>
+      <!--Такое на постоянную основу не тянет. В итоге, лучше этот блок потом скоментировать-->
     </div>
 
     <div class="LayerPreview">
@@ -50,9 +54,7 @@
           <div class="WarpPointCenter"></div>
         </div>
       </div>
-      
-    </div>
-    <!--Слои карты. Будут весьма кстати, если будет использоваться больше одного этажа-->
+      <!--А давай спрячем это-->
         <!--<div class="LayerSelector">
           <div class="LayerList">
             <button
@@ -66,7 +68,8 @@
             </button>
           </div>
         </div>-->
-     <!--Данный элемент не имеет оформления в style сегменте-->
+        <!--Может быть зря я это сделал. А может и нет. ХЗ-->
+    </div>
   </div>
 </div>
 </template>
@@ -79,6 +82,7 @@ import 'photo-sphere-viewer/dist/plugins/markers.css';
 import ScenarioService from './services/ScenarioService';
 
 export default {
+  //Инициализируемся
   name: 'PanoramaViewer',
   props: {
     scenario: {
@@ -105,12 +109,16 @@ export default {
       maps: [],
       warps: [],
       
-      ETOMobile: false, 
+      ETOMobile: false,  //Версия 20. Статус мобильного
       RPanelOpenOrNot: false,
       
+      //Версия23. По хорошему сценарии не хотят переопределятья. Кажется придётся сделать несколько больше, чем просто кнопки
+      //Копируем props-у!
       currentScenario: this.scenario
     };
   },
+  //Заинициализировались
+  //В computed ложим всё, что подлежит постоянному переприсвоению
     computed: {
     currentScene() {
       return this.scenes.find(s => s.id === this.currentSceneId);
@@ -141,7 +149,7 @@ export default {
     });
   },
 
-  watch: {   
+  watch: {    //Кажется это надо скрыть, но это не точно
     async scenario(newScenario) {
       await this.loadScenario(newScenario);
       this.DestroyPanoramaPlayer();
@@ -155,19 +163,20 @@ export default {
   },
 
   methods: {
-    CheckScreenSize() { //Версия 20. Ориентиром адаптации под смартфоны будет ширина в пикселях.
+    CheckScreenSize() { // Версия20. Размеры определяют тип устройства
       this.ETOMobile = window.innerWidth <= 768;
       if (this.ETOMobile) {
         this.RPanelOpenOrNot = false;
       }
     },
 
-    OpenCloseRPanel() {
+    OpenCloseRPanel() {// Версия20. Здесь мы открываемся и закрываемся
       this.RPanelOpenOrNot = !this.RPanelOpenOrNot;
     },
 
     handleSceneClick(sceneId) {
       this.SwitchScene(sceneId);
+      // Если на трубе тыкнул, то панель закрывается
       if (this.ETOMobile) {
         this.RPanelOpenOrNot = false;
       }
@@ -178,7 +187,8 @@ export default {
 
       try {
         const scenario = await this.scenarioService.loadScenario(scenarioName);
-        this.currentScenario = scenarioName; //Версия 23. Начинаем динамически менять сценарии здесь
+        this.currentScenario = scenarioName; //Версия 23. Начинаем переобуваться здесь.
+        //Остаётся верить, что это не сломает
         //Также переопределяем стартовую сцену
         if (NewInitionalScene) {
           scenario.initialScene = NewInitionalScene;
@@ -215,7 +225,9 @@ export default {
                   marker.type = 'circle';
                 } else if (marker.html !== undefined) {
                   marker.type = 'html';
-                }
+                }/*else if (marker.image !== undefined) {
+                  marker.type = 'image';
+                }*/
               }
 
               if (marker.type === 'circle' && !marker.svgStyle) {
@@ -234,6 +246,9 @@ export default {
                   textShadow: '0 0 10px black'
                 };
               }
+              /*if (marker.type === 'image' && !marker.size) {
+                marker.size = { width: 40, height: 40 };
+              }*/
             });
           }
         });
@@ -242,6 +257,48 @@ export default {
         await this.loadEmptyScenario();//Если что-то пойдёт не так, то запустить эту "тыкву". Всё же лучше чем пустая страница
       }
     },
+
+    /*async loadDefaultScenario() { Заменено на loadEmptyScenario.
+      this.scenes = [
+        {
+          id: 'scene1',
+          panorama: '/scenarios/default/p_res/hata.jpg',
+          name: 'Сцена 1 - Хата',
+          markers: [
+            {
+              id: 'to-scene2',
+              type: 'circle',
+              tooltip: 'В ТЦ',
+              circle: 25,
+              svgStyle: {
+                fill: 'rgba(0, 255, 0, 0.3)',
+                stroke: '#00ff00',
+                strokeWidth: '3px'
+              },
+              longitude: 4.0,
+              latitude: -0.4,
+              target: 'scene2'
+            }
+          ]
+        }
+      ];
+
+      this.maps = [
+        {
+          id: 'default_map',
+          name: 'Основная карта',
+          type: 'floor',
+          image: '/scenarios/default/m_res/test_map.png'
+        }
+      ];
+
+      this.warps = [
+        { id: 'm1', mapId: 'default_map', sceneId: 'scene1', x: 80, y: 120 }
+      ];
+
+      this.currentSceneId = 'scene1';
+      this.currentMapId = 'default_map';
+    },*/
 
     async loadEmptyScenario() {
       this.scenes = [];
@@ -271,6 +328,7 @@ export default {
         defaultLong: longitude,
         defaultLat: latitude,
         defaultZoomLvl: zoomLvl,
+        //За отсутствие многопотока, очень заметно, как сцена грузится вперёд маркеров. Но выводить в два потока WEB JS VUE приложение... А может не надо?
         plugins: [[MarkersPlugin, { markers: this.PrepareMarkersForPPlayer() }]]
       });
 
@@ -310,6 +368,9 @@ export default {
             } else if (marker.html !== undefined) {
               markerType = 'html';
             } 
+            /* else if (marker.image !== undefined) {
+              markerType = 'image';
+            }*/
               else {
               return null;
             }
@@ -347,7 +408,6 @@ export default {
                 anchor: marker.anchor || 'bottom center',
                 size: marker.size || { width: 40, height: 40 }
               };*/
-              //При попытке использовать PNG файл в качестве маркера крашило приложение. Больше пытаться не буду
               
             default:
               return null;
@@ -367,7 +427,7 @@ export default {
       };
     },
 
-    /*SwitchScene(id) {//Старая реализация до 17 версии. Сохраню в коментарии на всякий случай
+    /*SwitchScene(id) {//Давай попробуем новое. С 17 версии работаем с плавным переходом
       if (id === this.currentSceneId) return;
 
       this.updateGlobalCameraState();
@@ -391,20 +451,20 @@ export default {
       try {//Пробуем по хорошему сделать плавный переход
         this.MarkersPlugin.setMarkers([]); //1! Пусть сначала маркеры исчезнут
         await this.PanoramaPlayer.setPanorama(nextScene.panorama, {//2! Потом сделаем переход
-            //transitionDuration: 100, //Не красиво выходит
+            //transitionDuration: 100, //Не красиво выходит. Словно не задержка перехода, а задержка в развитии
             transition: 500,
             caption: nextScene.name
          });
         if (this.MarkersPlugin) {//3! Затем загрузим новые маркеры
-            //await new Promise(resolve => setTimeout(resolve, 100)); смотри коментарий на 5 строчек выше
+            //await new Promise(resolve => setTimeout(resolve, 100)); смотри коментарий на 6 строчек выше
             this.MarkersPlugin.setMarkers(this.PrepareMarkersForPPlayer(), {transition: 5000});
         }
 
-        //После await. Чтобы маркеры не спешили вперёд паравоза
-        //P.S. Это очень заметно и режет глаз. Пусть до await грузятся
+        // После await. Чтобы маркеры не спешили вперёд паравоза
+        // P.S. А х там! Это очень заметно и режет глаз. Пусть до await грузятся
         
       } catch (error) {
-         //Если по хоролшему не хочет, то попробуем старый способ(до 17 версии)
+         // Если по хоролшему не хочет, то попробуем старый способ(до 17 версии)
          this.DestroyPanoramaPlayer();
          this.$nextTick(() => this.InitPanoramaPlayer());
       }
@@ -422,9 +482,7 @@ export default {
       return s ? s.name : id;
     },
 
-    //Версия23. Заранее были сделаны дубликаты одного сценария разного качества. Эти функции - реализация динамического перехода от одного сценария к другому, не меняя текущую сцену и положение камеры
-    //Расчитано только для работы дубликатов, со всеми одинаковыми ID сцен, маркеров, карт, но с разными кадрами
-    //Реализованно с идеей под адаптацию на пользователей с очень слабой сетью
+    //Версия23. А может быть я зря так делаю?
     ChangeScenario1() {
         //this.$router.push('/viewer/techpark_lite');
         this.DestroyPanoramaPlayer();
@@ -476,7 +534,7 @@ export default {
   color: #d4d4d4;
   border-left: 1px solid #404040;
   overflow: hidden;
-  transition: transform 0.3s ease;
+  transition: transform 0.3s ease;/*Время для перехода с ПК на мобайл*/
 }
 
 @media (max-width: 768px) {
@@ -486,7 +544,7 @@ export default {
     right: 0;
     height: 100vh;
     width: 320px;
-    min-width: 320px; 
+    min-width: 320px;  /*Почему то панель сжимается. Избегаем!*/
     transform: translateX(100%);
     z-index: 1000;
     
@@ -517,7 +575,7 @@ export default {
     transition: all 0.3s ease;
   }
 
-/*Анимация перехода с бургера на крестик и обратно*/ 
+/*Реализация анимации перехода с гамбургера на крестик и обратно*/ 
   .BURGER span {
     display: block;
     width: 24px;
@@ -624,7 +682,7 @@ export default {
   cursor: pointer;
   transition: all 0.3s ease;
   z-index: 10;
-  transform: translate(-150%, -50%);
+  transform: translate(-150%, -50%);/* Эта гадость съехала! Корректируем */
 }
 
 .WarpPointCenter {
